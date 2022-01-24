@@ -4,16 +4,17 @@ featured: false
 tour_id: Coffee Bay Hike
 destination: Wild Coast
 activity: Slackpacking
-duration: '4 nights, 3 days'
-price: '6400'
+duration: 4 nights, 3 days
+price: "7000"
 bannerblurb: Presleys Bay to Hole in Wall over 3 days
 shortdescription: |
   An easy 3 day hike around Coffee Bay taking in the best of Wild Coast scenery.
+  Presleys Bay, Mdumbi and Hole in Wall
 imagethumbnail:
   alt: Coffee Bay Hike. Cliffs above Coffee Bay
   image: /img/coffee-bay-cliffs-thumb.jpg
 imagebanner:
-  alt: 'Coffee Bay Hike - rondavels '
+  alt: "Coffee Bay Hike - rondavels "
   image: /img/coffeebay-hike-rondavels.jpg
 photoGallery:
   photo:
