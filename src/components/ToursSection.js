@@ -1,8 +1,8 @@
-import React from "react";
-import TourThumbnail from "../components/TourThumbnail";
+import React from "react"
+import TourThumbnail from "../components/TourThumbnail"
 
-const ToursSection = props => {
-  const tours = props.sectionDetails.tours;
+const ToursSection = (props) => {
+  const tours = props.sectionDetails.tours
   return (
     <div className="row">
       <div className="section-title text-center">
@@ -11,11 +11,13 @@ const ToursSection = props => {
           <span>{props.sectionDetails.heading2}</span>
         </h2>
       </div>
-      {tours.map(tour => {
-        return <TourThumbnail key={tour.tour.id} tourDetails={tour.tour} />;
-      })}
+      {tours
+        .filter((tour) => tour?.tour)
+        .map((tour) => {
+          return <TourThumbnail key={tour.tour.id} tourDetails={tour.tour} />
+        })}
     </div>
-  );
-};
+  )
+}
 
-export default ToursSection;
+export default ToursSection

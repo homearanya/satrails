@@ -1,7 +1,7 @@
-import React from "react";
-import ToursSection from "../components/ToursSection";
+import React from "react"
+import ToursSection from "../components/ToursSection"
 
-const ToursPopular = props => {
+const ToursPopular = (props) => {
   return (
     <div className="best-sell-area section-padding">
       <div className="container">
@@ -23,7 +23,7 @@ const ToursPopular = props => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ToursPopular;
+export default ToursPopular
