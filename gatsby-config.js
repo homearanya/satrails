@@ -11,14 +11,14 @@ module.exports = {
       minibio: `
         <strong>Carlos Gonzalez</strong> is a front-end web developer specialised in ReactJS/Gatsby.
         He lives in Howick, KZN, South Africa.
-      `
+      `,
     },
     organization: {
       name: "SA Adventure Trail",
       url: "https://www.trails.co.za",
-      logo: "https://www.trails.co.za/img/sa-trails-logo-color.png"
+      logo: "https://www.trails.co.za/img/sa-trails-logo-color.png",
     },
-    siteUrl: "https://www.trails.co.za" // for gatsby plugin sitemap
+    siteUrl: "https://www.trails.co.za", // for gatsby plugin sitemap
   },
   plugins: [
     {
@@ -26,8 +26,8 @@ module.exports = {
       options: {
         host: "https://www.trails.co.za",
         sitemap: "https://www.trails.co.za/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }]
-      }
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
     },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
@@ -36,12 +36,12 @@ module.exports = {
 
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: false
+        includeInDevelopment: false,
 
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
         // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-      }
+      },
     },
     `gatsby-plugin-styled-components`,
     {
@@ -73,9 +73,9 @@ module.exports = {
           opengraph: false,
           twitter: false,
           yandex: false,
-          windows: false
-        }
-      }
+          windows: false,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -88,8 +88,8 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "src/assets/img/icon.png" // This path is relative to the root of the site.
-      }
+        icon: "src/assets/img/icon.png", // This path is relative to the root of the site.
+      },
     },
     // `gatsby-plugin-offline`,
     "gatsby-plugin-remove-serviceworker",
@@ -99,36 +99,36 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads"
-      }
+        name: "uploads",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/general`,
-        name: "general"
-      }
+        name: "general",
+      },
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages"
-      }
+        name: "pages",
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src_images`,
-        path: `${__dirname}/src/assets/img/`
-      }
+        path: `${__dirname}/src/assets/img/`,
+      },
     },
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
         useMozJpeg: false,
-        stripMetadata: true
-      }
+        stripMetadata: true,
+      },
     },
     `gatsby-transformer-sharp`,
     {
@@ -138,8 +138,8 @@ module.exports = {
           {
             resolve: "gatsby-remark-relative-images",
             options: {
-              name: "uploads"
-            }
+              name: "uploads",
+            },
           },
           {
             resolve: `gatsby-remark-images`,
@@ -148,44 +148,38 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 930,
-              backgroundColor: "transparent" // required to display blurred image first
-            }
+              backgroundColor: "transparent", // required to display blurred image first
+            },
           },
           {
             resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: "static"
-            }
-          }
-        ]
-      }
+              destinationDir: "static",
+            },
+          },
+        ],
+      },
     },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "https://wildtrails.us17.list-manage.com/subscribe/post?u=792c9f598edc1eff7ee0c6658&amp;id=9415608b3b" // see instructions section below
-      }
+          "https://wildtrails.us17.list-manage.com/subscribe/post?u=792c9f598edc1eff7ee0c6658&amp;id=9415608b3b", // see instructions section below
+      },
     },
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
-    {
-      resolve: "gatsby-plugin-netlify-cache",
-      options: {
-        cachePublic: true
-      }
+        modulePath: `${__dirname}/src/cms/cms.js`,
+      },
     },
     "gatsby-plugin-netlify-identity-widget",
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
+    "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
   mapping: {
     "MarkdownRemark.frontmatter.tour": `MarkdownRemark.frontmatter.tour_id`,
     "MarkdownRemark.frontmatter.toursarea.section.tours.tour": `MarkdownRemark.frontmatter.tour_id`,
     "MarkdownRemark.frontmatter.section.tours.tour": `MarkdownRemark.frontmatter.tour_id`,
-    "MarkdownRemark.fields.tourevents": `MarkdownRemark`
-  }
-};
+    "MarkdownRemark.fields.tourevents": `MarkdownRemark`,
+  },
+}
