@@ -5,7 +5,7 @@ tour_id: Clarens Traverse
 destination: Drakensberg
 activity: Slackpacking
 duration: 3 days
-price: 'R 4500 '
+price: "R 5000 "
 bannerblurb: 3 day Slackpack in the Maluti Mountains around Clarens
 shortdescription: >-
   Manageable daily hikes in the hills and valleys around Clarens. Fully guided
@@ -34,7 +34,7 @@ photoGallery:
       caption: Group hike Day 2
       image: /img/clarens_group1.jpg
     - alt: Farmhouse
-      caption: 'St Fort Country House '
+      caption: "St Fort Country House "
       image: /img/clarens_farmhouse.jpg
     - alt: Ladder
       caption: Boulder Hopping with Ladder
