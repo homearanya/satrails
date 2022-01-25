@@ -5,13 +5,13 @@ tour_id: Karkloof Falls2Falls
 destination: Midlands
 activity: Slackpacking
 duration: 3 nights
-price: R 4900
-bannerblurb: '3 days and 3 nights in the Karkloof Valley, KZN Midlands'
-shortdescription: >-
-  This is a 3 day 3 night slackpacking hike through  the Karkloof Valley, KZN
-  Midlands. All inclusive of comfortable accommodation, all meals, luggage
-  transfer, fully guided, conservancy fees a forest canopy tour. Bespoke tours
-  can also be arranged for organised groups with special interests.
+price: R 6000
+bannerblurb: 3 days and 3 nights in the Karkloof Valley, KZN Midlands
+shortdescription: This is a 3 day 3 night slackpacking hike through  the
+  Karkloof Valley, KZN Midlands. All inclusive of comfortable accommodation, all
+  meals, luggage transfer, fully guided, conservancy fees a forest canopy tour.
+  Bespoke tours can also be arranged for organised groups with special
+  interests.
 imagethumbnail:
   alt: Karkloof Falls
   image: /img/karkloof-falls375x375-min.jpg
