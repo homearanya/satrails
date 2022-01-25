@@ -1,10 +1,10 @@
-import React from "react";
-import Gallery from "react-photo-gallery";
-import Lightbox from "react-images";
+import React from "react"
+import Gallery from "react-photo-gallery"
+import Carousel, { Modal, ModalGateway } from "react-images"
 
 function convertPhotos(photos, photoGalleryObject) {
   return photos
-    .filter(photo => photo.image)
+    .filter((photo) => photo.image)
     .map((photo, index) => {
       return photo.image
         ? photo.image.childImageSharp
@@ -15,7 +15,7 @@ function convertPhotos(photos, photoGalleryObject) {
               width: photo.image.childImageSharp.fluid.aspectRatio,
               height: 1,
               alt: photo.alt,
-              key: index
+              key: index,
             }
           : {
               src: photo.image,
@@ -25,21 +25,21 @@ function convertPhotos(photos, photoGalleryObject) {
                   : 1
                 : 1,
               height: 1,
-              alt: photo.alt
+              alt: photo.alt,
             }
-        : null;
-    });
+        : null
+    })
 }
 
 function convertImages(photos) {
   return photos
-    .filter(photo => photo.image)
+    .filter((photo) => photo.image)
     .map((photo, index) => {
-      let photoCaption = "";
+      let photoCaption = ""
       if (photo.caption && photo.caption.length > 0) {
-        photoCaption = photo.caption;
+        photoCaption = photo.caption
       } else {
-        photoCaption = photo.alt;
+        photoCaption = photo.alt
       }
       return photo.image
         ? photo.image.childImageSharp
@@ -47,71 +47,56 @@ function convertImages(photos) {
               src: photo.image.childImageSharp.fluid.src,
               srcSet: photo.image.childImageSharp.fluid.srcSet,
               alt: photo.alt,
-              caption: photoCaption
+              caption: photoCaption,
             }
           : {
               src: photo.image,
               alt: photo.alt,
-              caption: photoCaption
+              caption: photoCaption,
             }
-        : null;
-    });
+        : null
+    })
 }
 
 export default class TourGallery extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { currentImage: 0 };
-    this.closeLightbox = this.closeLightbox.bind(this);
-    this.openLightbox = this.openLightbox.bind(this);
-    this.gotoNext = this.gotoNext.bind(this);
-    this.gotoPrevious = this.gotoPrevious.bind(this);
+    super(props)
+    this.state = { currentImage: 0 }
+    this.closeLightbox = this.closeLightbox.bind(this)
+    this.openLightbox = this.openLightbox.bind(this)
   }
 
   openLightbox(event, obj) {
     this.setState({
       currentImage: obj.index,
-      lightboxIsOpen: true
-    });
+      lightboxIsOpen: true,
+    })
   }
 
   closeLightbox() {
     this.setState({
       currentImage: 0,
-      lightboxIsOpen: false
-    });
-  }
-
-  gotoPrevious() {
-    this.setState({
-      currentImage: this.state.currentImage - 1
-    });
-  }
-
-  gotoNext() {
-    this.setState({
-      currentImage: this.state.currentImage + 1
-    });
+      lightboxIsOpen: false,
+    })
   }
 
   render() {
     const photos = convertPhotos(
       this.props.photos,
       this.props.photoGalleryObject
-    );
-    const images = convertImages(this.props.photos);
+    )
+    const images = convertImages(this.props.photos)
     return (
       <div>
         <Gallery photos={photos} columns={3} onClick={this.openLightbox} />
-        <Lightbox
-          images={images}
-          onClose={this.closeLightbox}
-          onClickPrev={this.gotoPrevious}
-          onClickNext={this.gotoNext}
-          currentImage={this.state.currentImage}
-          isOpen={this.state.lightboxIsOpen}
-        />
+        <ModalGateway>
+          {this.state.lightboxIsOpen && (
+            <Modal onClose={this.closeLightbox}>
+              <Carousel views={images} currentIndex={this.state.currentImage} />
+            </Modal>
+          )}
+        </ModalGateway>
       </div>
-    );
+    )
   }
 }

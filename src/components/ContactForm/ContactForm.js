@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import addToMailchimp from "gatsby-plugin-mailchimp";
-import Loader from "react-loader-spinner";
-import styled from "styled-components";
+import React, { Component } from "react"
+import addToMailchimp from "gatsby-plugin-mailchimp"
+import { ThreeDots } from "react-loader-spinner"
+import styled from "styled-components"
 
-import "./contactForm.css";
-import { AjaxMessage } from "../AjaxMessage";
+import "./contactForm.css"
+import { AjaxMessage } from "../AjaxMessage"
 
 const ContactFormWrapper = styled.div`
   && {
@@ -16,7 +16,7 @@ const ContactFormWrapper = styled.div`
       margin-bottom: -110px;
     }
   }
-`;
+`
 
 const LoaderContainer = styled.div`
   color: white;
@@ -34,36 +34,36 @@ const LoaderContainer = styled.div`
     transform: translate(-50%, -50%);
     text-align: center;
   }
-`;
+`
 
 const ButtonContainer = styled.div`
   position: relative;
   text-align: center;
-`;
+`
 
 const StyledButton = styled.input`
   &&& {
     margin-bottom: 20px;
-    color: ${props => (props.loadSpinner ? "#0967B9 " : "#ffffff")};
+    color: ${(props) => (props.loadSpinner ? "#0967B9 " : "#ffffff")};
     background-color: #0967b9;
     :focus {
-      color: ${props => (props.loadSpinner ? "#0967B9 " : "#ffffff")};
+      color: ${(props) => (props.loadSpinner ? "#0967B9 " : "#ffffff")};
       background-color: #0967b9;
     }
     :hover,
     :active {
-      color: ${props => (props.loadSpinner ? "#043B6C" : "#ffffff")};
+      color: ${(props) => (props.loadSpinner ? "#043B6C" : "#ffffff")};
       background-color: #043b6c;
     }
   }
-`;
+`
 
 export class ContactForm extends Component {
   constructor(props) {
-    super(props);
-    let subject = "";
+    super(props)
+    let subject = ""
     if (this.props.subject) {
-      subject = this.props.subject;
+      subject = this.props.subject
     }
     this.state = {
       f_namefjkdls: "",
@@ -81,57 +81,57 @@ export class ContactForm extends Component {
       contactFormSubmissionResult: null,
       subscribeNewsletter: true,
       newsletterSubmissionResult: null,
-      loadSpinner: false
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+      loadSpinner: false,
+    }
+    this.handleChange = this.handleChange.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
   }
 
   handleChange(event) {
     switch (event.target.name) {
       // Real fields
       case "f_namefjkdls":
-        this.setState({ f_namefjkdls: event.target.value });
-        break;
+        this.setState({ f_namefjkdls: event.target.value })
+        break
       case "l_namefjkdls":
-        this.setState({ l_namefjkdls: event.target.value });
-        break;
+        this.setState({ l_namefjkdls: event.target.value })
+        break
       case "emailfjkdls":
-        this.setState({ emailfjkdls: event.target.value });
-        break;
+        this.setState({ emailfjkdls: event.target.value })
+        break
       case "subjectfjkdls":
-        this.setState({ subjectfjkdls: event.target.value });
-        break;
+        this.setState({ subjectfjkdls: event.target.value })
+        break
       case "phone_numberfjkdls":
-        this.setState({ phone_numberfjkdls: event.target.value });
-        break;
+        this.setState({ phone_numberfjkdls: event.target.value })
+        break
       case "messagefjkdls":
-        this.setState({ messagefjkdls: event.target.value });
-        break;
+        this.setState({ messagefjkdls: event.target.value })
+        break
       // h o n e y p o t fields
       case "f_name":
-        this.setState({ f_name: event.target.value });
-        break;
+        this.setState({ f_name: event.target.value })
+        break
       case "l_name":
-        this.setState({ l_name: event.target.value });
-        break;
+        this.setState({ l_name: event.target.value })
+        break
       case "email":
-        this.setState({ email: event.target.value });
-        break;
+        this.setState({ email: event.target.value })
+        break
       case "subject":
-        this.setState({ subject: event.target.value });
-        break;
+        this.setState({ subject: event.target.value })
+        break
       case "phone_number":
-        this.setState({ phone_number: event.target.value });
-        break;
+        this.setState({ phone_number: event.target.value })
+        break
       case "message":
-        this.setState({ message: event.target.value });
-        break;
+        this.setState({ message: event.target.value })
+        break
       case "subscribe_newsletter":
-        this.setState({ subscribeNewsletter: event.target.checked });
-        break;
+        this.setState({ subscribeNewsletter: event.target.checked })
+        break
       default:
-        console.log("Wrong Case in Switch HandleChange");
+        console.log("Wrong Case in Switch HandleChange")
     }
   }
 
@@ -139,21 +139,21 @@ export class ContactForm extends Component {
     if (this.state.subscribeNewsletter) {
       this.setState(
         {
-          loadSpinner: true
+          loadSpinner: true,
         },
         async () => {
           const result = await addToMailchimp(this.state.emailfjkdls, {
             FNAME: this.state.fnamefjkdls,
-            LNAME: this.state.lnamefjkdls
-          });
+            LNAME: this.state.lnamefjkdls,
+          })
           // I recommend setting `result` to React state
           // but you can do whatever you want
           this.setState({
             newsletterSubmissionResult: result,
-            loadSpinner: false
-          });
+            loadSpinner: false,
+          })
         }
-      );
+      )
     }
   }
 
@@ -184,26 +184,26 @@ export class ContactForm extends Component {
           message: "",
           contactFormSubmissionResult:
             "Thanks for the message. I’ll be in touch shortly.",
-          loadSpinner: false
-        });
-      }, 2000);
-      return;
+          loadSpinner: false,
+        })
+      }, 2000)
+      return
     }
     // It's not spam. Let's construct an HTTP request
-    var xhr = new XMLHttpRequest();
+    var xhr = new XMLHttpRequest()
     xhr.open(
       "POST",
       "https://lyjj57jnmf.execute-api.us-east-1.amazonaws.com/production/static-site-mailer-trails",
       true
-    );
-    xhr.setRequestHeader("Accept", "application/json; charset=utf-8");
-    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    )
+    xhr.setRequestHeader("Accept", "application/json; charset=utf-8")
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8")
 
     // Send the collected data as JSON
-    xhr.send(JSON.stringify(this.state));
+    xhr.send(JSON.stringify(this.state))
 
     // Callback function
-    xhr.onloadend = response => {
+    xhr.onloadend = (response) => {
       if (response.target.status === 200) {
         // The form submission was successful
         this.setState(
@@ -216,35 +216,35 @@ export class ContactForm extends Component {
             messagefjkdls: "",
             contactFormSubmissionResult:
               "Thanks for the message. I’ll be in touch shortly.",
-            loadSpinner: false
+            loadSpinner: false,
           },
           this.subscribeNewsletter()
-        );
+        )
       } else {
         // The form submission failed
         this.setState({
           contactFormSubmissionResult: "Something went wrong",
-          loadSpinner: false
-        });
-        console.error(response);
+          loadSpinner: false,
+        })
+        console.error(response)
         // console.error(JSON.parse(response.target.response).message);
       }
-    };
+    }
   }
 
-  handleSubmit = async event => {
-    event.preventDefault();
+  handleSubmit = async (event) => {
+    event.preventDefault()
 
     this.setState(
       {
         loadSpinner: true,
         contactFormSubmissionResult: null,
-        newsletterSubmissionResult: null
+        newsletterSubmissionResult: null,
       },
       // Callback funtion to be called after component has been updated with the new state
       this.sendEmail()
-    );
-  };
+    )
+  }
 
   render() {
     return (
@@ -415,12 +415,7 @@ export class ContactForm extends Component {
             <ButtonContainer className="col-sm-12">
               {this.state.loadSpinner && (
                 <LoaderContainer>
-                  <Loader
-                    type="ThreeDots"
-                    color="#ffffff"
-                    height={18}
-                    width={80}
-                  />
+                  <ThreeDots color="#ffffff" height={15} width={80} />
                 </LoaderContainer>
               )}
 
@@ -447,6 +442,6 @@ export class ContactForm extends Component {
           }
         />
       </ContactFormWrapper>
-    );
+    )
   }
 }
