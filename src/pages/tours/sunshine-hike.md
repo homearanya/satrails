@@ -5,13 +5,12 @@ tour_id: Sunshine Hike
 destination: Wild Coast
 activity: Slackpacking
 duration: 5 days
-price: R 6900
+price: R 7200
 bannerblurb: 5 days from Wavecrest to Chintsa
-shortdescription: >-
-  Takes in the best of Wild Coast scenery over 4 hiking days between Wavecrest
-  and Crawfords hotel Chintsa in the south.  Dinner, bed and breakfast with
-  packed lunches from hotels. Fully guided and shuttle service. Bags transported
-  by vehicle between hotels from Morgan Bay onwards.
+shortdescription: Takes in the best of Wild Coast scenery over 4 hiking days
+  between Wavecrest and Crawfords hotel Chintsa in the south.  Dinner, bed and
+  breakfast with packed lunches from hotels. Fully guided and shuttle service.
+  Bags transported by vehicle between hotels.
 imagethumbnail:
   alt: Sunshine Hike
   image: /img/sunshine-hike375x375-min.jpg
@@ -23,11 +22,16 @@ photoGallery:
     - alt: Fishing inspector
       image: /img/meander-hike-gallery_1.jpg
     - image: /img/about.jpg
+      alt: Sunshine 1
     - caption: Wavecrest lagoon
       image: /img/meander-hike-gallery_4.jpg
+      alt: Wavecrest Hotel
     - image: /img/meander-hike-gallery_5.jpg
+      alt: Beach Walk
     - image: /img/meander-hike-gallery_7.jpg
+      alt: Hikers Near Cebe
     - image: /img/wc2_morganbaycliffs.jpg
+      alt: Morgan Bay Cliff walk
 ---
 
 This 5 night 4 day hike encompasses the best of the original Meander route with a 2 night extension along the Eastern cape Sunshine coast, stopping over at Haga Haga and finishing at the small holiday village of Chintsa close to East London. An easy fly-in package or just drive to Chintsa and leave your car safely parked while you do the hike.
