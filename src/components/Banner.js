@@ -1,12 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
+import { getSrc } from "gatsby-plugin-image"
 
 export default function Banner(props) {
-  let imageURL = "";
+  let imageURL = ""
   if (props.imageBanner.image) {
     imageURL = props.imageBanner.image.childImageSharp
-      ? props.imageBanner.image.childImageSharp.fluid.src
-      : props.imageBanner.image;
+      ? getSrc(props.imageBanner.image.childImageSharp.gatsbyImageData)
+      : props.imageBanner.image
   }
   return (
     <div
@@ -17,7 +18,7 @@ export default function Banner(props) {
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "scroll",
         backgroundPosition: "center top",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
       }}
     >
       <div className="container">
@@ -45,5 +46,5 @@ export default function Banner(props) {
         </div>
       </div>
     </div>
-  );
+  )
 }

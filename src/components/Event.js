@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import dateformat from "dateformat";
 
 import BookButton from "../components/BookButton";
@@ -12,7 +12,7 @@ const Event = ({ eventInfo }) => {
   let imageAlt = "";
   if (tourInfo.imagethumbnail.image) {
     imageFluid = tourInfo.imagethumbnail.image.childImageSharp
-      ? tourInfo.imagethumbnail.image.childImageSharp.fluid
+      ? tourInfo.imagethumbnail.image.childImageSharp.gatsbyImageData
       : tourInfo.imagethumbnail.image;
     imageAlt = tourInfo.imagethumbnail.alt;
   }
@@ -28,7 +28,7 @@ const Event = ({ eventInfo }) => {
                     <img src={imageFluid} alt={imageAlt} />
                   </div>
                 ) : (
-                  <Img fluid={imageFluid} alt={imageAlt} />
+                  <GatsbyImage image={imageFluid} alt={imageAlt} />
                 )}
               </Link>
             </div>

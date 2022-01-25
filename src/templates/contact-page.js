@@ -80,26 +80,22 @@ export default class ContactPage extends Component {
   }
 }
 
-export const contactPageQuery = graphql`
-  query ContactPage($id: String!) {
-    ContactPageQuery: markdownRemark(id: { eq: $id }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        blurb
-        imagebanner {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1600, maxHeight: 750) {
-                ...GatsbyImageSharpFluid_withWebp
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
+export const contactPageQuery = graphql`query ContactPage($id: String!) {
+  ContactPageQuery: markdownRemark(id: {eq: $id}) {
+    fields {
+      slug
+    }
+    frontmatter {
+      blurb
+      imagebanner {
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
           }
-          alt
         }
+        alt
       }
     }
   }
+}
 `;

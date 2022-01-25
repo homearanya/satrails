@@ -20,14 +20,13 @@ export default class TourPage extends Component {
       schemaImages.push(tourInfo.frontmatter.imagebanner.image.relativePath)
     }
     if (tourInfo.frontmatter.photoGallery) {
-      tourInfo.frontmatter.photoGallery.photo.map(photo =>
+      tourInfo.frontmatter.photoGallery.photo.map((photo) =>
         schemaImages.push(photo.image.relativePath)
       )
     }
     //
-    const {
-      frontmatter: upcomingEventsInfo
-    } = this.props.data.UpcomingEventsHeadingQuery.childMarkdownRemark
+    const { frontmatter: upcomingEventsInfo } =
+      this.props.data.UpcomingEventsHeadingQuery.childMarkdownRemark
     // Meta Info for SEO and schemaOrg
     const pageMeta = {
       title: `${tourInfo.frontmatter.tour_id} · ${tourInfo.frontmatter.destination} · ${tourInfo.frontmatter.activity} · Tours`,
@@ -36,7 +35,7 @@ export default class TourPage extends Component {
       tourName: tourInfo.frontmatter.tour_id,
       tourPrice: tourInfo.frontmatter.price,
       tourImages: schemaImages,
-      datePublished: false
+      datePublished: false,
     }
     return (
       <Layout tourPage>
@@ -87,9 +86,7 @@ export const tourPageQuery = graphql`
           image {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 1600, maxHeight: 750) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
           alt
@@ -101,9 +98,7 @@ export const tourPageQuery = graphql`
             image {
               relativePath
               childImageSharp {
-                fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 800, layout: CONSTRAINED)
               }
             }
           }

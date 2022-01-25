@@ -43,9 +43,7 @@ export const homePageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 1600, maxHeight: 750) {
-                  ...GatsbyImageSharpFluid_withWebp_noBase64
-                }
+                gatsbyImageData(placeholder: NONE, layout: FULL_WIDTH)
               }
             }
           }
@@ -58,9 +56,7 @@ export const homePageQuery = graphql`
             alt
             image {
               childImageSharp {
-                fluid(maxWidth: 786) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 786, layout: CONSTRAINED)
               }
             }
           }
@@ -88,9 +84,11 @@ export const homePageQuery = graphql`
                   imagethumbnail {
                     image {
                       childImageSharp {
-                        fluid(maxWidth: 370, maxHeight: 370) {
-                          ...GatsbyImageSharpFluid_withWebp
-                        }
+                        gatsbyImageData(
+                          width: 370
+                          height: 370
+                          layout: CONSTRAINED
+                        )
                       }
                     }
                     alt

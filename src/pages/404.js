@@ -1,16 +1,17 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
+import React from "react"
+import { Helmet } from "react-helmet"
+import { getSrc } from "gatsby-plugin-image"
+import { graphql, Link } from "gatsby"
 
-import styled from "styled-components";
+import styled from "styled-components"
 
-import SEO from "../components/SEO/SEO";
-import Layout from "../components/Layout";
+import SEO from "../components/SEO/SEO"
+import Layout from "../components/Layout"
 
-import "../assets/css/404.css";
+import "../assets/css/404.css"
 
 const Wrapper = styled.div`
-  background: #edecec url(${props => props.backgroundImage}) no-repeat scroll
+  background: #edecec url(${(props) => props.backgroundImage}) no-repeat scroll
     right top / 50% 100%;
   padding-bottom: 107px;
   padding-top: 250px;
@@ -35,16 +36,16 @@ const Wrapper = styled.div`
     padding-bottom: 80px;
     padding-top: 65px;
   }
-`;
+`
 
 export default ({ data }) => {
-  const { backgroundimage } = data.NotFoundQuery.frontmatter;
+  const { backgroundimage } = data.NotFoundQuery.frontmatter
   const pageMeta = {
     title: `Page Not Found . Slackpacking, Walks & Cycle Tours`,
     description: `Page not found. Go back to home page`,
     slug: "/404/",
-    datePublished: false
-  };
+    datePublished: false,
+  }
   return (
     <Layout>
       <SEO pageData={pageMeta} />
@@ -56,7 +57,7 @@ export default ({ data }) => {
         backgroundImage={
           backgroundimage.image
             ? backgroundimage.image.childImageSharp
-              ? backgroundimage.image.childImageSharp.fluid.src
+              ? getSrc(backgroundimage.image.childImageSharp.gatsbyImageData)
               : backgroundimage.image
             : ""
         }
@@ -81,8 +82,8 @@ export default ({ data }) => {
         </div>
       </Wrapper>
     </Layout>
-  );
-};
+  )
+}
 
 export const notFoundPageQuery = graphql`
   query NotFoundPage {
@@ -91,9 +92,7 @@ export const notFoundPageQuery = graphql`
         backgroundimage {
           image {
             childImageSharp {
-              fluid(maxWidth: 785) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+              gatsbyImageData(width: 785, layout: CONSTRAINED)
             }
           }
           alt
@@ -101,4 +100,4 @@ export const notFoundPageQuery = graphql`
       }
     }
   }
-`;
+`

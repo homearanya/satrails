@@ -29,46 +29,43 @@ export const UpcomingEventsTemplate = ({ data, upcomingEvents }) => {
 const UpcomingEvents = () => {
   return (
     <StaticQuery
-      query={graphql`
-        query UpcomingEventsQuery {
-          allMarkdownRemark(
-            sort: { order: ASC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "upcoming-events" } } }
-          ) {
-            edges {
-              node {
-                id
-                frontmatter {
-                  date
-                  tour {
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      tour_id
-                      destination
-                      activity
-                      duration
-                      price
-                      shortdescription
-                      imagethumbnail {
-                        image {
-                          childImageSharp {
-                            fluid(maxWidth: 370, maxHeight: 294) {
-                              ...GatsbyImageSharpFluid_withWebp
-                            }
-                          }
-                        }
-                        alt
-                      }
-                    }
+      query={graphql`query UpcomingEventsQuery {
+  allMarkdownRemark(
+    sort: {order: ASC, fields: [frontmatter___date]}
+    filter: {frontmatter: {templateKey: {eq: "upcoming-events"}}}
+  ) {
+    edges {
+      node {
+        id
+        frontmatter {
+          date
+          tour {
+            fields {
+              slug
+            }
+            frontmatter {
+              tour_id
+              destination
+              activity
+              duration
+              price
+              shortdescription
+              imagethumbnail {
+                image {
+                  childImageSharp {
+                    gatsbyImageData(width: 370, height: 294, layout: CONSTRAINED)
                   }
                 }
+                alt
               }
             }
           }
         }
-      `}
+      }
+    }
+  }
+}
+`}
       render={data => <UpcomingEventsTemplate data={data} />}
     />
   );

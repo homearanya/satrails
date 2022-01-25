@@ -7,69 +7,62 @@ import MenuMobile from "./MenuMobile";
 export default function Menu(props) {
   return (
     <StaticQuery
-      query={graphql`
-        query MenuQuery {
-          switches: markdownRemark(fields: { slug: { eq: "/config/" } }) {
-            frontmatter {
-              blogswitch
-              calendarswitch
+      query={graphql`query MenuQuery {
+  switches: markdownRemark(fields: {slug: {eq: "/config/"}}) {
+    frontmatter {
+      blogswitch
+      calendarswitch
+    }
+  }
+  LogoQuery: markdownRemark(fields: {slug: {eq: "/logo/"}}) {
+    frontmatter {
+      colorlogo {
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 150, placeholder: NONE, layout: CONSTRAINED)
+          }
+        }
+        alt
+      }
+      whitelogo {
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 150, placeholder: NONE, layout: CONSTRAINED)
+          }
+        }
+        alt
+      }
+    }
+  }
+  tourMenu: markdownRemark(fields: {slug: {eq: "/tour-menu/"}}) {
+    frontmatter {
+      section {
+        heading1
+        heading2
+        image {
+          image {
+            childImageSharp {
+              gatsbyImageData(width: 450, placeholder: NONE, layout: CONSTRAINED)
             }
           }
-          LogoQuery: markdownRemark(fields: { slug: { eq: "/logo/" } }) {
-            frontmatter {
-              colorlogo {
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 150) {
-                      ...GatsbyImageSharpFluid_withWebp_noBase64
-                    }
-                  }
-                }
-                alt
-              }
-              whitelogo {
-                image {
-                  childImageSharp {
-                    fluid(maxWidth: 150) {
-                      ...GatsbyImageSharpFluid_withWebp_noBase64
-                    }
-                  }
-                }
-                alt
-              }
+          alt
+        }
+        tours {
+          tour {
+            fields {
+              slug
             }
-          }
-          tourMenu: markdownRemark(fields: { slug: { eq: "/tour-menu/" } }) {
             frontmatter {
-              section {
-                heading1
-                heading2
-                image {
-                  image {
-                    childImageSharp {
-                      fluid(maxWidth: 450) {
-                        ...GatsbyImageSharpFluid_withWebp_noBase64
-                      }
-                    }
-                  }
-                  alt
-                }
-                tours {
-                  tour {
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      tour_id
-                      duration
-                    }
-                  }
-                }
-              }
+              tour_id
+              duration
             }
           }
         }
-      `}
+      }
+    }
+  }
+}
+`}
       render={data => {
         const switches = data.switches.frontmatter;
         const { frontmatter: logos } = data.LogoQuery;

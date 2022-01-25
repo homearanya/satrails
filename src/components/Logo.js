@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Logo = props => {
   return (
@@ -10,10 +10,9 @@ const Logo = props => {
           <Link to="/">
             {props.logos.whitelogo.image ? (
               props.logos.whitelogo.image.childImageSharp ? (
-                <Img
-                  fluid={props.logos.whitelogo.image.childImageSharp.fluid}
-                  alt={props.logos.whitelogo.alt}
-                />
+                <GatsbyImage
+                  image={props.logos.whitelogo.image.childImageSharp.gatsbyImageData}
+                  alt={props.logos.whitelogo.alt} />
               ) : (
                 <img
                   src={props.logos.whitelogo.image}
@@ -27,10 +26,9 @@ const Logo = props => {
           <Link to="/">
             {props.logos.colorlogo.image ? (
               props.logos.colorlogo.image.childImageSharp ? (
-                <Img
-                  fluid={props.logos.colorlogo.image.childImageSharp.fluid}
-                  alt={props.logos.colorlogo.alt}
-                />
+                <GatsbyImage
+                  image={props.logos.colorlogo.image.childImageSharp.gatsbyImageData}
+                  alt={props.logos.colorlogo.alt} />
               ) : (
                 <img
                   src={props.logos.colorlogo.image}

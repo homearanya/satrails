@@ -45,76 +45,68 @@ export default ({ data }) => {
   );
 };
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    AboutPageQuery: markdownRemark(id: { eq: $id }) {
-      fields {
-        slug
+export const aboutPageQuery = graphql`query AboutPage($id: String!) {
+  AboutPageQuery: markdownRemark(id: {eq: $id}) {
+    fields {
+      slug
+    }
+    frontmatter {
+      banner {
+        blurb
+        imagebanner {
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
+          }
+          alt
+        }
       }
-      frontmatter {
-        banner {
-          blurb
-          imagebanner {
+      destinationsarea {
+        heading1
+        heading2
+        introduction
+        destination {
+          image {
             image {
               childImageSharp {
-                fluid(maxWidth: 1600, maxHeight: 750) {
-                  ...GatsbyImageSharpFluid_withWebp
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 600, height: 400, layout: CONSTRAINED)
               }
             }
             alt
           }
-        }
-        destinationsarea {
           heading1
           heading2
-          introduction
-          destination {
-            image {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 600, maxHeight: 400) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-              alt
-            }
-            heading1
-            heading2
-            content {
-              paragraph {
-                text
-              }
+          content {
+            paragraph {
+              text
             }
           }
         }
-        partnersarea {
+      }
+      partnersarea {
+        heading1
+        heading2
+        introduction
+        partner {
+          image {
+            image {
+              childImageSharp {
+                gatsbyImageData(width: 270, layout: CONSTRAINED)
+              }
+            }
+            alt
+          }
           heading1
           heading2
-          introduction
-          partner {
-            image {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 270) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
-              alt
-            }
-            heading1
-            heading2
-            content {
-              paragraph {
-                text
-              }
+          content {
+            paragraph {
+              text
             }
           }
         }
       }
     }
   }
+}
 `;

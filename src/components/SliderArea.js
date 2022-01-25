@@ -31,7 +31,7 @@ export default function SliderArea(props) {
                 imageFluid={
                   slide.image.image
                     ? slide.image.image.childImageSharp
-                      ? slide.image.image.childImageSharp.fluid
+                      ? slide.image.image.childImageSharp.gatsbyImageData
                       : slide.image.image
                     : null
                 }

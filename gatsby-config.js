@@ -91,6 +91,7 @@ module.exports = {
         path: `${__dirname}/src/assets/img/`,
       },
     },
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

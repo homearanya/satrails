@@ -1,9 +1,10 @@
-import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import styled from "styled-components";
+import React from "react"
+import { StaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
+import { getSrc } from "gatsby-plugin-image"
 
-import NewsletterForm from "./NewsletterForm";
-import ContactDetails from "./ContactDetails";
+import NewsletterForm from "./NewsletterForm"
+import ContactDetails from "./ContactDetails"
 
 const FooterLinksWrapper = styled.div`
   text-align: center;
@@ -17,7 +18,7 @@ const FooterLinksWrapper = styled.div`
     color: #0967b9;
     border-color: #0967b9;
   }
-`;
+`
 
 export default function FooterWidgetArea() {
   return (
@@ -30,9 +31,7 @@ export default function FooterWidgetArea() {
                 image {
                   image {
                     childImageSharp {
-                      fluid(maxWidth: 1600) {
-                        ...GatsbyImageSharpFluid_withWebp
-                      }
+                      gatsbyImageData(layout: FULL_WIDTH)
                     }
                   }
                   alt
@@ -62,16 +61,14 @@ export default function FooterWidgetArea() {
           }
         }
       `}
-      render={data => {
-        const {
-          image: backgroundImage
-        } = data.FooterDetails.childMarkdownRemark.frontmatter.image;
+      render={(data) => {
+        const { image: backgroundImage } =
+          data.FooterDetails.childMarkdownRemark.frontmatter.image
         // const {
         //   contact-details
         // } = data.ContactDetails.childMarkdownRemark.frontmatter;
-        const {
-          newsletterarea
-        } = data.FooterDetails.childMarkdownRemark.frontmatter;
+        const { newsletterarea } =
+          data.FooterDetails.childMarkdownRemark.frontmatter
         return (
           <div
             className="footer-widget-area"
@@ -79,13 +76,15 @@ export default function FooterWidgetArea() {
               backgroundColor: "rgba(0, 0, 0, 0)",
               backgroundImage: backgroundImage
                 ? backgroundImage.childImageSharp
-                  ? `url(${backgroundImage.childImageSharp.fluid.src})`
+                  ? `url(${getSrc(
+                      backgroundImage.childImageSharp.gatsbyImageData
+                    )})`
                   : `url(${backgroundImage})`
                 : "",
               backgroundRepeat: "no-repeat",
               backgroundAttachment: "scroll",
               backgroundPosition: "center top",
-              backgroundSize: "cover"
+              backgroundSize: "cover",
             }}
           >
             <div className="container">
@@ -110,8 +109,8 @@ export default function FooterWidgetArea() {
               </div>
             </div>
           </div>
-        );
+        )
       }}
     />
-  );
+  )
 }

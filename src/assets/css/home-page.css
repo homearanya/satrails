@@ -942,6 +942,10 @@ button#btn-search-category:hover {
   }
 }
 
+.single-adventure .gatsby-image-wrapper {
+  display: block;
+}
+
 /* ***************** */
 
 /* Latest Blogs Area */

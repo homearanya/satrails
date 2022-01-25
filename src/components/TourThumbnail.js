@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import { textTruncate } from "../utils/helpers"
 import useMediaQuery from "../utils/hooks/useMediaQuery"
 
@@ -16,10 +16,9 @@ const TourThumbnail = props => {
       <div className="single-adventure">
         {tourDetails.imagethumbnail.image ? (
           tourDetails.imagethumbnail.image.childImageSharp ? (
-            <Img
-              fluid={tourDetails.imagethumbnail.image.childImageSharp.fluid}
-              alt={tourDetails.imagethumbnail.alt}
-            />
+            <GatsbyImage
+              image={tourDetails.imagethumbnail.image.childImageSharp.gatsbyImageData}
+              alt={tourDetails.imagethumbnail.alt} />
           ) : (
             <img
               src={tourDetails.imagethumbnail.image}
@@ -56,7 +55,7 @@ const TourThumbnail = props => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default TourThumbnail

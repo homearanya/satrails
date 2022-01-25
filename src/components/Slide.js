@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Slide = props => {
   return (
@@ -12,11 +12,7 @@ const Slide = props => {
             title={props.imageTitle}
           />
         ) : (
-          <Img
-            fluid={props.imageFluid}
-            alt={props.imageAlt}
-            title={props.imageTitle}
-          />
+          <GatsbyImage image={props.imageFluid} alt={props.imageAlt} title={props.imageTitle} />
         )
       ) : null}
       <div className="nivo-caption" style={{ display: "block" }}>

@@ -1,33 +1,47 @@
 import React from "react"
 import Gallery from "react-photo-gallery"
 import Carousel, { Modal, ModalGateway } from "react-images"
+import { getSrc, getSrcSet } from "gatsby-plugin-image"
 
 function convertPhotos(photos, photoGalleryObject) {
   return photos
     .filter((photo) => photo.image)
     .map((photo, index) => {
-      return photo.image
-        ? photo.image.childImageSharp
-          ? {
-              src: photo.image.childImageSharp.fluid.src,
-              srcSet: photo.image.childImageSharp.fluid.srcSet,
-              sizes: photo.image.childImageSharp.fluid.sizes,
-              width: photo.image.childImageSharp.fluid.aspectRatio,
-              height: 1,
-              alt: photo.alt,
-              key: index,
-            }
-          : {
-              src: photo.image,
-              width: photoGalleryObject
+      console.log({ photo }, photo.image.childImageSharp)
+      if (photo?.image) {
+        if (photo.image.childImageSharp) {
+          const src = getSrc(photo.image.childImageSharp.gatsbyImageData)
+          const srcSet = getSrcSet(photo.image.childImageSharp.gatsbyImageData)
+          const sizes =
+            photo.image.childImageSharp.gatsbyImageData.images.fallback.sizes
+          const width =
+            photo.image.childImageSharp.gatsbyImageData.width /
+            photo.image.childImageSharp.gatsbyImageData.height
+          const height = 1
+          const processedPhoto = {
+            src,
+            srcSet,
+            sizes,
+            width,
+            height,
+            alt: photo.alt,
+            key: src,
+          }
+          return processedPhoto
+        } else {
+          return {
+            src: photo.image,
+            width: photoGalleryObject
+              ? photoGalleryObject[photo.image]
                 ? photoGalleryObject[photo.image]
-                  ? photoGalleryObject[photo.image]
-                  : 1
-                : 1,
-              height: 1,
-              alt: photo.alt,
-            }
-        : null
+                : 1
+              : 1,
+            height: 1,
+            alt: photo.alt,
+          }
+        }
+      }
+      return null
     })
 }
 
@@ -44,8 +58,8 @@ function convertImages(photos) {
       return photo.image
         ? photo.image.childImageSharp
           ? {
-              src: photo.image.childImageSharp.fluid.src,
-              srcSet: photo.image.childImageSharp.fluid.srcSet,
+              src: getSrc(photo.image.childImageSharp.gatsbyImageData),
+              srcSet: getSrcSet(photo.image.childImageSharp.gatsbyImageData),
               alt: photo.alt,
               caption: photoCaption,
             }
@@ -86,9 +100,11 @@ export default class TourGallery extends React.Component {
       this.props.photoGalleryObject
     )
     const images = convertImages(this.props.photos)
+    console.log({ photos })
+    const photosCopy = JSON.parse(JSON.stringify(photos))
     return (
       <div>
-        <Gallery photos={photos} columns={3} onClick={this.openLightbox} />
+        <Gallery photos={photosCopy} columns={3} onClick={this.openLightbox} />
         <ModalGateway>
           {this.state.lightboxIsOpen && (
             <Modal onClose={this.closeLightbox}>

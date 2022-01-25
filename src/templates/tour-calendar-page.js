@@ -32,25 +32,22 @@ export default ({ data }) => {
     </Layout>
   );
 };
-export const CalendarPageQuery = graphql`
-  query CalendarPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        blurb
-        imagebanner {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 1600, maxHeight: 750) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
+export const CalendarPageQuery = graphql`query CalendarPage($id: String!) {
+  markdownRemark(id: {eq: $id}) {
+    fields {
+      slug
+    }
+    frontmatter {
+      blurb
+      imagebanner {
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
           }
-          alt
         }
+        alt
       }
     }
   }
+}
 `;

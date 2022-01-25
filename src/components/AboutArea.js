@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const AboutArea = props => {
   return (
@@ -10,10 +10,9 @@ const AboutArea = props => {
           <div className="col-md-6 hidden-sm hidden-xs">
             {props.aboutArea.image.image ? (
               props.aboutArea.image.image.childImageSharp ? (
-                <Img
-                  fluid={props.aboutArea.image.image.childImageSharp.fluid}
-                  alt={props.aboutArea.image.alt}
-                />
+                <GatsbyImage
+                  image={props.aboutArea.image.image.childImageSharp.gatsbyImageData}
+                  alt={props.aboutArea.image.alt} />
               ) : (
                 <img
                   src={props.aboutArea.image.image}

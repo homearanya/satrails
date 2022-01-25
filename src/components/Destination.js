@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Destination = props => {
   return (
@@ -8,10 +8,9 @@ const Destination = props => {
         <div className="destinations-image">
           {props.destination.image.image ? (
             props.destination.image.image.childImageSharp ? (
-              <Img
-                fluid={props.destination.image.image.childImageSharp.fluid}
-                alt={props.destination.image.alt}
-              />
+              <GatsbyImage
+                image={props.destination.image.image.childImageSharp.gatsbyImageData}
+                alt={props.destination.image.alt} />
             ) : (
               <img
                 src={props.destination.image.image}

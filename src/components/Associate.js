@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Associate = props => {
   return (
@@ -10,10 +10,9 @@ const Associate = props => {
             <div className="associate-image">
               {props.partner.image.image ? (
                 props.partner.image.image.childImageSharp ? (
-                  <Img
-                    fluid={props.partner.image.image.childImageSharp.fluid}
-                    alt={props.partner.image.alt}
-                  />
+                  <GatsbyImage
+                    image={props.partner.image.image.childImageSharp.gatsbyImageData}
+                    alt={props.partner.image.alt} />
                 ) : (
                   <img
                     src={props.partner.image.image}
