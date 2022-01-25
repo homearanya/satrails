@@ -44,39 +44,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: "./src/favicon.png",
 
-        // WebApp Manifest Configuration
-        appName: null, // Inferred with your package.json
-        appDescription: null,
-        developerName: null,
-        developerURL: null,
-        dir: "auto",
-        lang: "en-US",
-        background: "#fff",
-        theme_color: "#fff",
-        display: "standalone",
-        orientation: "any",
-        start_url: "/?homescreen=1",
-        version: "1.0",
-
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          opengraph: false,
-          twitter: false,
-          yandex: false,
-          windows: false,
-        },
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -88,7 +56,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "src/assets/img/icon.png", // This path is relative to the root of the site.
+        icon: "src/assets/img/icon.png", // This pat is relative to the root of the site.
       },
     },
     // `gatsby-plugin-offline`,

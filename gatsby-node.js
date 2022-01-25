@@ -1,11 +1,10 @@
-const path = require("path");
-const { createFilePath } = require("gatsby-source-filesystem");
-const { fmImagesToRelative } = require("gatsby-remark-relative-images");
+const path = require("path")
+const { createFilePath } = require("gatsby-source-filesystem")
 
-let eventsObject = {};
+let eventsObject = {}
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage } = actions
   return graphql(`
     {
       allMarkdownRemark(
@@ -27,16 +26,16 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
-      return Promise.reject(result.errors);
+      result.errors.forEach((e) => console.error(e.toString()))
+      return Promise.reject(result.errors)
     }
     // create pages
-    const posts = result.data.allMarkdownRemark.edges;
+    const posts = result.data.allMarkdownRemark.edges
 
-    posts.forEach(edge => {
-      const id = edge.node.id;
+    posts.forEach((edge) => {
+      const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
         // tags: edge.node.frontmatter.tags,
@@ -45,31 +44,30 @@ exports.createPages = ({ actions, graphql }) => {
         ),
         // additional data can be passed via context
         context: {
-          id
-        }
-      });
-    });
-  });
-};
+          id,
+        },
+      })
+    })
+  })
+}
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
-  fmImagesToRelative(node); // convert image paths for gatsby images
+  const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    let value = createFilePath({ node, getNode });
+    let value = createFilePath({ node, getNode })
     if (value.includes("/tours/")) {
       value = `/tours/${node.frontmatter.destination
         .replace(/\s+/g, "-")
         .toLowerCase()}/${node.frontmatter.activity
         .replace(/\s+/g, "-")
-        .toLowerCase()}${value.substring(6)}`;
+        .toLowerCase()}${value.substring(6)}`
     }
     createNodeField({
       name: `slug`,
       node,
-      value
-    });
+      value,
+    })
 
     // collect nodes for tour - events relationship
     if (
@@ -80,19 +78,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
         createNodeField({
           name: `tourevents`,
           node,
-          value: eventsObject[node.frontmatter.tour_id]
-        });
+          value: eventsObject[node.frontmatter.tour_id],
+        })
       }
     } else if (
       node.frontmatter.templateKey &&
       node.frontmatter.templateKey.includes("upcoming-events")
     ) {
       if (eventsObject[node.frontmatter.tour]) {
-        eventsObject[node.frontmatter.tour].push(node.id);
+        eventsObject[node.frontmatter.tour].push(node.id)
       } else {
-        eventsObject[node.frontmatter.tour] = [];
-        eventsObject[node.frontmatter.tour].push(node.id);
+        eventsObject[node.frontmatter.tour] = []
+        eventsObject[node.frontmatter.tour].push(node.id)
       }
     }
   }
-};
+}
