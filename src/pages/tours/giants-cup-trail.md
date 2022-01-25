@@ -5,18 +5,18 @@ tour_id: Giants Cup Trail
 destination: Drakensberg
 activity: Slackpacking
 duration: 4 nights
-price: R 7500
-bannerblurb: '3 or 4 day hike in the Southern Drakensberg, Sani Pass to Bushmans Nek'
-shortdescription: >-
-  Hike the 60km National Hiking Way in the foothills of the Drakenberg from Sani
-  Pass to Bushmans Nek.  Self guided well marked trail with daily shuttles from
-  the trail head to small hotels and  lodges for overnight accommodation.
+price: From R7500
+bannerblurb: 3 or 4 day hike in the Southern Drakensberg, Sani Pass to Bushmans Nek
+shortdescription: Hike the 60km National Hiking Way in the foothills of the
+  Drakenberg from Sani Pass to Bushmans Nek.  Self guided well marked trail with
+  daily shuttles from the trail head to small hotels and  lodges for overnight
+  accommodation.
 imagethumbnail:
   alt: Cobham - Start of Day 2
   image: /img/kd1_thumb.jpg
 imagebanner:
   alt: Giants Cup Trail - View from Swiman's Hut
-  image: /img/20190314_084912.jpg
+  image: /img/about-drakensberg-slackpack540x300-min.jpg
 photoGallery:
   photo:
     - alt: Summer walking
@@ -34,8 +34,8 @@ photoGallery:
     - alt: Trekking on Day 1
       caption: Trekking on Day 1
       image: /img/kd1_003.jpg
-    - alt: 'Winter hiking '
-      caption: 'Winter hiking '
+    - alt: "Winter hiking "
+      caption: "Winter hiking "
       image: /img/giants-cup375x375-min.jpg
 ---
 
