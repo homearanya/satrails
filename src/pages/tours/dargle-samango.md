@@ -38,7 +38,7 @@ photoGallery:
       caption: "Forest Clearing "
       image: /img/sm2_013.jpg
 ---
-This is a three day round hike encompassing curated paths through one of the oldest and most well protected nature conservancies in the Midlands. Well known for its rich biodiversity, the daily hikes are gentle in distance and gradient makes this a perfect beginner’s hike.  
+This is a three day round hike encompassing curated paths through one of the oldest and most well protected nature conservancies in the Midlands. Well known for its rich biodiversity, the daily hikes are gentle in distance and gradient making this a perfect beginner’s hike.  
 
 Highlights include traversing the forest canopy on a zip line tour (optional), an indigenous tree trail and lodging in old Natal farm houses.
 
@@ -48,7 +48,7 @@ Recommended fitness level: Moderate
 
 Average daily walking distances: 6-13 km/day
 
-Accommodation types: Comfortable midlands-style B&B, farm cottages
+Accommodation types: Midlands-style B&B, farm cottages
 
 Inclusive of 3 nights accommodation, all meals, luggage transfer, registered guide, conservancy fees.  Bespoke tours can also be arranged for organised groups with special interests: Birding, biomimicry, ecology, yoga and meditation and botanical interest.
 
