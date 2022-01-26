@@ -9,12 +9,12 @@ slider:
     subheading1: TAKE A WALK ON THE
     subheading2: WILD SIDE
   - heading1: MIDLANDS TOURS
-    heading2: ""
+    heading2: MEANDERING THROUGH
     image:
       alt: Midlands Walks and Cycle Tours
       image: /img/midlands-cycling-1600x750.jpg
-    subheading1: MEANDERING THROUGH THE
-    subheading2: NATAL MIDLANDS
+    subheading1: KZN MIDLANDS
+    subheading2: ++
   - heading1: DRAKENSBERG
     heading2: SLACKPACKING
     image:
@@ -46,12 +46,12 @@ toursarea:
       tours:
         - tour: Meander Hike
         - tour: Sunshine Hike
-        - tour: Coffee Bay Hike
+        - tour: Mini Break
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Clarens Traverse
         - tour: Giants Cup Trail
-        - tour: Amphitheatre Hike
+        - tour: Mehloding
     - heading1: Midlands Slackpacking
       tours:
         - tour: Karkloof Falls2Falls
