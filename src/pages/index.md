@@ -9,12 +9,12 @@ slider:
     subheading1: TAKE A WALK ON THE
     subheading2: WILD SIDE
   - heading1: MIDLANDS TOURS
-    heading2: MEANDERING THROUGH
+    heading2: HIKE AND CYCLE
     image:
       alt: Midlands Walks and Cycle Tours
       image: /img/midlands-cycling-1600x750.jpg
-    subheading1: KZN MIDLANDS
-    subheading2: ++
+    subheading1: EXPLORE THE
+    subheading2: KZN MIDLANDS
   - heading1: DRAKENSBERG
     heading2: SLACKPACKING
     image:
