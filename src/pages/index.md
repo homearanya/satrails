@@ -56,7 +56,7 @@ toursarea:
       tours:
         - tour: Karkloof Falls2Falls
         - tour: Dargle Samango
-        - tour: Nhlosane Hike
+        - tour: Meander Cycle Tour
     - heading1: Cycle Tours
       tours:
         - tour: Battlefields
