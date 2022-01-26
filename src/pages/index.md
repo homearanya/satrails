@@ -23,11 +23,10 @@ slider:
     subheading1: HIKE
     subheading2: THE HERITAGE TRAIL
 aboutarea:
-  blurb: >-
-    SA Adventure Trails is a marketing association between Paul Colvin of Wild
-    Coast Walks and Julia Colvin of Spekboom Tours.  Together we offer the best
-    selection of fully supported hiking and cycling tours in KwaZulu Natal and
-    the Eastern Cape Wild Coast
+  blurb: SA Adventure Trails is a marketing association between Paul Colvin of
+    Wild Coast Walks and Julia Colvin of Spekboom Tours.  Together we offer the
+    best selection of fully supported hiking and cycling tours in KwaZulu Natal
+    and the Eastern Cape Wild Coast
   heading1: SA Adventure
   heading2: Trails
   image:
@@ -47,7 +46,7 @@ toursarea:
       tours:
         - tour: Meander Hike
         - tour: Sunshine Hike
-        - tour: Mini Break
+        - tour: Coffee Bay Hike
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Clarens Traverse
@@ -58,16 +57,15 @@ toursarea:
         - tour: Karkloof Falls2Falls
         - tour: Dargle Samango
         - tour: Nhlosane Hike
-    - heading1: Midlands Cycle Tours
+    - heading1: Cycle Tours
       tours:
         - tour: Battlefields
-        - tour: Midlands Meander
+        - tour: Meander Cycle Tour
         - tour: Trappist Monastery
 blogarea:
-  blurb: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor
-    turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent porta
-    lacinia elementum.
+  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+    dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
+    porta lacinia elementum.
   heading1: Latest
   heading2: Blog Posts
   switch: true
