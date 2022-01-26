@@ -16,7 +16,7 @@ imagethumbnail:
   image: /img/kd1_thumb.jpg
 imagebanner:
   alt: Giants Cup Trail - View from Swiman's Hut
-  image: /img/about-drakensberg-slackpack540x300-min.jpg
+  image: /img/giants-cup-trail450x300.jpg
 photoGallery:
   photo:
     - alt: Summer walking
