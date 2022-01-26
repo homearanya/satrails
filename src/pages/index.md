@@ -9,7 +9,7 @@ slider:
     subheading1: TAKE A WALK ON THE
     subheading2: WILD SIDE
   - heading1: MIDLANDS TOURS
-    heading2: "& CYCLE TOURS"
+    heading2: ""
     image:
       alt: Midlands Walks and Cycle Tours
       image: /img/midlands-cycling-1600x750.jpg
@@ -57,11 +57,7 @@ toursarea:
         - tour: Karkloof Falls2Falls
         - tour: Dargle Samango
         - tour: Meander Cycle Tour
-    - heading1: Cycle Tours
-      tours:
-        - tour: Battlefields
-        - tour: Meander Cycle Tour
-        - tour: Trappist Monastery
+      heading2: and Cycle Tours
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
     dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
