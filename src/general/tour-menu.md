@@ -16,7 +16,7 @@ section:
       image: /img/midlands-walks450x300.jpg
     tours:
       - tour: Karkloof Falls2Falls
-      - tour: Dargle Samango
+      - tour: Midlands Samango
       - tour: Meander Cycle Tour
   - heading1: Drakensberg Slackpacking
     heading2: " "
