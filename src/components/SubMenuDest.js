@@ -27,7 +27,8 @@ const SubMenuDest = (props) => {
       <span>
         <div className="mega-title">
           <h4>
-            {props.section.heading1} <span>{props.section.heading2}</span>
+            {props.section.heading1} <br />
+            {props.section.heading2}
           </h4>
         </div>
         {props.section.tours

@@ -1,24 +1,24 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import Sticky from "react-sticky-el";
+import React, { Component } from "react"
+import { Link } from "gatsby"
+import Sticky from "react-sticky-el"
 
-import { CSSTransition } from "react-transition-group";
+import { CSSTransition } from "react-transition-group"
 
 class ToursMenuSection extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      showToursMenuSection: false
-    };
+      showToursMenuSection: false,
+    }
 
-    this.toggleToursMenuSection = this.toggleToursMenuSection.bind(this);
+    this.toggleToursMenuSection = this.toggleToursMenuSection.bind(this)
   }
 
   toggleToursMenuSection() {
-    this.setState(prevState => {
-      return { showToursMenuSection: !prevState.showToursMenuSection };
-    });
+    this.setState((prevState) => {
+      return { showToursMenuSection: !prevState.showToursMenuSection }
+    })
   }
 
   render() {
@@ -28,6 +28,7 @@ class ToursMenuSection extends Component {
           type="button"
           className="a-to-button"
           onClick={this.toggleToursMenuSection}
+          style={{ width: "calc(100% - 70px)" }}
         >
           {this.props.tourMenuSections.heading1}{" "}
           <span>{this.props.tourMenuSections.heading2}</span>
@@ -53,13 +54,13 @@ class ToursMenuSection extends Component {
                         ")"}
                     </Link>
                   </li>
-                );
+                )
               })}
             </ul>
             <button
               type="button"
               className="a-to-button mean-expand mean-clicked"
-              style={{ fontSize: "18px" }}
+              style={{ fontSize: "18px", top: "-6px" }}
               onClick={this.toggleToursMenuSection}
             >
               -
@@ -75,18 +76,18 @@ class ToursMenuSection extends Component {
           <button
             type="button"
             className="a-to-button mean-expand"
-            style={{ fontSize: "18px" }}
+            style={{ fontSize: "18px", top: "-6px" }}
             onClick={this.toggleToursMenuSection}
           >
             +
           </button>
         </CSSTransition>
       </li>
-    );
+    )
   }
 }
 
-const ToursMenu = props => {
+const ToursMenu = (props) => {
   return (
     <div>
       <ul style={{ display: "block" }}>
@@ -97,14 +98,14 @@ const ToursMenu = props => {
               tourMenuSections={section}
               toggleMenu={props.toggleMenu}
             />
-          );
+          )
         })}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-const Menu = props => {
+const Menu = (props) => {
   return (
     <ul style={{ display: "block" }}>
       <li>
@@ -140,7 +141,7 @@ const Menu = props => {
             <button
               type="button"
               className="a-to-button mean-expand mean-clicked"
-              style={{ fontSize: "18px" }}
+              style={{ fontSize: "18px", top: "-6px" }}
               onClick={props.toggleToursMenu}
             >
               -
@@ -156,7 +157,7 @@ const Menu = props => {
           <button
             type="button"
             className="a-to-button mean-expand"
-            style={{ fontSize: "18px" }}
+            style={{ fontSize: "18px", top: "-6px" }}
             onClick={props.toggleToursMenu}
           >
             +
@@ -183,31 +184,31 @@ const Menu = props => {
         </Link>
       </li>
     </ul>
-  );
-};
+  )
+}
 
 export default class MenuMobile extends Component {
   constructor() {
-    super();
+    super()
 
     this.state = {
       showMenu: false,
-      showToursMenu: false
-    };
+      showToursMenu: false,
+    }
 
-    this.wrapperRef = React.createRef();
-    this.handleClickOutside = this.handleClickOutside.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
-    this.toggleMenu = this.toggleMenu.bind(this);
-    this.toggleToursMenu = this.toggleToursMenu.bind(this);
+    this.wrapperRef = React.createRef()
+    this.handleClickOutside = this.handleClickOutside.bind(this)
+    this.closeMenu = this.closeMenu.bind(this)
+    this.toggleMenu = this.toggleMenu.bind(this)
+    this.toggleToursMenu = this.toggleToursMenu.bind(this)
   }
 
   componentDidMount() {
-    document.addEventListener("mousedown", this.handleClickOutside);
+    document.addEventListener("mousedown", this.handleClickOutside)
   }
 
   componentWillUnmount() {
-    document.removeEventListener("mousedown", this.handleClickOutside);
+    document.removeEventListener("mousedown", this.handleClickOutside)
   }
 
   handleClickOutside(event) {
@@ -215,24 +216,24 @@ export default class MenuMobile extends Component {
       this.wrapperRef.current &&
       !this.wrapperRef.current.contains(event.target)
     ) {
-      this.closeMenu();
+      this.closeMenu()
     }
   }
 
   closeMenu() {
-    this.setState({ showMenu: false });
+    this.setState({ showMenu: false })
   }
 
   toggleMenu() {
-    this.setState(prevState => {
-      return { showMenu: !prevState.showMenu };
-    });
+    this.setState((prevState) => {
+      return { showMenu: !prevState.showMenu }
+    })
   }
 
   toggleToursMenu() {
-    this.setState(prevState => {
-      return { showToursMenu: !prevState.showToursMenu };
-    });
+    this.setState((prevState) => {
+      return { showToursMenu: !prevState.showToursMenu }
+    })
   }
 
   render() {
@@ -257,7 +258,7 @@ export default class MenuMobile extends Component {
                         left: "auto",
                         textAlign: "center",
                         textIndent: "0px",
-                        fontSize: "18px"
+                        fontSize: "18px",
                       }}
                       onClick={this.toggleMenu}
                     >
@@ -296,6 +297,6 @@ export default class MenuMobile extends Component {
           </div>
         </div>
       </Sticky>
-    );
+    )
   }
 }
