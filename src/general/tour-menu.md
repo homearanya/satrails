@@ -8,7 +8,7 @@ section:
     tours:
       - tour: Meander Hike
       - tour: Sunshine Hike
-      - tour: Coffee Bay Hike
+      - tour: Mini Break
   - heading1: Midlands Slackpacking
     heading2: " Hike and Cycle Tours"
     image:
@@ -16,7 +16,7 @@ section:
       image: /img/midlands-walks450x300.jpg
     tours:
       - tour: Karkloof Falls2Falls
-      - tour: Meander Hike
+      - tour: Dargle Samango
       - tour: Meander Cycle Tour
   - heading1: Drakensberg Slackpacking
     heading2: " "
@@ -26,5 +26,5 @@ section:
     tours:
       - tour: Clarens Traverse
       - tour: Giants Cup Trail
-      - tour: Amphitheatre Hike
+      - tour: Mehloding
 ---
