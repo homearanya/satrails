@@ -9,15 +9,15 @@ section:
       - tour: Meander Hike
       - tour: Sunshine Hike
       - tour: Coffee Bay Hike
-  - heading1: Midlands Walks
-    heading2: " "
+  - heading1: Midlands Slackpacking
+    heading2: " Hike and Cycle Tours"
     image:
-      alt: Midlands Walks
+      alt: Grasslands Walking
       image: /img/midlands-walks450x300.jpg
     tours:
       - tour: Karkloof Falls2Falls
-      - tour: Dargle Samango
-      - tour: Nhlosane Hike
+      - tour: Meander Hike
+      - tour: Meander Cycle Tour
   - heading1: Drakensberg Slackpacking
     heading2: " "
     image:
@@ -27,13 +27,4 @@ section:
       - tour: Clarens Traverse
       - tour: Giants Cup Trail
       - tour: Amphitheatre Hike
-  - heading1: KZN Cycle Tours
-    heading2: " "
-    image:
-      alt: KZN Cycle Tours
-      image: /img/cycle-tours450x300.jpg
-    tours:
-      - tour: Battlefields
-      - tour: Midlands Meander
-      - tour: Trappist Monastery
 ---
