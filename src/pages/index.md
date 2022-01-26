@@ -8,7 +8,7 @@ slider:
       image: /img/wild-coast-1600x750.jpg
     subheading1: TAKE A WALK ON THE
     subheading2: WILD SIDE
-  - heading1: MIDLANDS WALKS
+  - heading1: MIDLANDS TOURS
     heading2: "& CYCLE TOURS"
     image:
       alt: Midlands Walks and Cycle Tours
