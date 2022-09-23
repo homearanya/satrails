@@ -8,14 +8,14 @@ duration: 3 days, 3 nights
 price: From R6000
 bannerblurb: Long Weekend Special - Coffee Bay or Morgan Bay
 shortdescription: >+
-  A 3 day 4 night long weekend slackpacking hike on the Wild Coast with pleasant
+  A 3 day 3 night long weekend slackpacking hike on the Wild Coast with pleasant
   daily  walking and overnight  comfort.  Self drive to start hotel or fly into
   East London or Umthata airport on a Thursday and be back home on Sunday with
   all arrangements taken care of eg airport shuttles, full guide service,
   luggage transfers and packed lunches each day.  
 
 
-  This hike is an affordable alternative for those who want less of a challenge and more of an opportunity to get away to nature, to destress,  and soak in the wonderful wild coast scenery. We can build in extra rest days or just walk through over 2 or 3 days of easy non technical hiking. 
+  This hike is an affordable alternative for those who want less of a challenge and more of an opportunity to get away to nature, to destress,  and soak in the wonderful wild coast scenery. We can build in extra rest days or additional activities if requested (eg local history and nature tours, river cruises or paddling, bush camps with game drives etc)
 
 
   Hikes depart from Ocean View hotel at Coffee Bay or Morgan Bay hotel on the lower Wild Coast. 
