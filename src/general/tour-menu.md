@@ -9,6 +9,7 @@ section:
       - tour: Meander Hike
       - tour: Sunshine Hike
       - tour: Mini Break
+      - tour: Coffee Bay Hike
   - heading1: Midlands Slackpacking
     heading2: " Hike and Cycle Tours"
     image:
