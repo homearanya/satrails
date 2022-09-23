@@ -4,7 +4,7 @@ featured: true
 tour_id: Mini Break
 destination: Wild Coast
 activity: Slackpacking
-duration: 3-4 days
+duration: 3 days, 3 nights
 price: From R6000
 bannerblurb: Long Weekend Special - Coffee Bay or Morgan Bay
 shortdescription: >+
