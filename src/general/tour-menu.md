@@ -11,14 +11,13 @@ section:
       - tour: Mini Break
       - tour: Coffee Bay Hike
   - heading1: Midlands Slackpacking
-    heading2: " Hike and Cycle Tours"
+    heading2: ""
     image:
       alt: Grasslands Walking
       image: /img/midlands-walks450x300.jpg
     tours:
       - tour: Karkloof Falls2Falls
       - tour: Midlands Samango
-      - tour: Meander Cycle Tour
   - heading1: Drakensberg Slackpacking
     heading2: " "
     image:
