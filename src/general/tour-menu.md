@@ -27,4 +27,12 @@ section:
       - tour: Clarens Traverse
       - tour: Giants Cup Trail
       - tour: Mehloding
+  - heading1: Cycle Tours
+    image:
+      image: /img/about-cycle-tours540x300-min.jpg
+      alt: "Supported Multi Day Cycle Tours  "
+    tours:
+      - tour: Battlefields
+      - tour: Meander Cycle Tour
+      - tour: Trappist Monastery
 ---
