@@ -16,9 +16,8 @@
     "gatsby-plugin-image": "^2.5.2",
     "gatsby-plugin-mailchimp": "^5.2.2",
     "gatsby-plugin-manifest": "^4.5.2",
-    "gatsby-plugin-netlify": "^4.0.0-next.0",
+    "gatsby-plugin-netlify": "^5.0.1",
     "gatsby-plugin-netlify-cms": "6.5.0",
-    "gatsby-plugin-netlify-identity-widget": "^1.1.1",
     "gatsby-plugin-offline": "^5.5.2",
     "gatsby-plugin-react-helmet": "^5.5.0",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
@@ -48,6 +47,6 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@netlify/plugin-gatsby": "^2.0.0-beta"
+    "@netlify/plugin-gatsby": "^3.4.7"
   }
 }
