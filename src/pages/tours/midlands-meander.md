@@ -1,7 +1,7 @@
 ---
 templateKey: tour-page
 featured: true
-tour_id: KZN MIdlands Cycle Tour
+tour_id: KZN Midlands Cycle Tour
 destination: Midlands
 activity: Cycle Tour
 duration: 1-2 nights
@@ -31,6 +31,6 @@ photoGallery:
 ---
 Cycle touring is catching on fast with new developments in ebikes and touring gravel bikes.
 
-What better place to do this than in the KZN Midlands with its rich diversity of countryside.  Rich farmland and grasslands, wide expanses of forest trails and quiet district roads characterise this region which make it easy to plot routes  through the country taking in its many attractions.  As our home base SA Trails is well placed to design and customise a wide selection of riding routes suited to riders of varying ability.  Each ride is unique and planned together with the group so that you can enjoy the riding and have time to take in the many scenic attractions along the route. 
+What better place to do this than in the KZN Midlands with its rich diversity of countryside.  Rich farmland and grasslands, extensive network of forest trails and quiet district roads characterise this region.  As our home base SA Trails is well placed to design and customise a wide selection of riding routes.  Each ride is unique and planned together with the group for a challenging social cycle while taking time to still enjoy the many scenic attractions along the route.
 
-Scheduled departures on known well established routes are planned for the spring and autumn months when the weather is more settled and day time temperatures are normally perfect.  Full back up support is given with your overnight packs transported to the next venue and all catering provided for.  Email us for more details on our next cycle tour.
+Scheduled departures on well established routes are planned for the spring and autumn months when the weather is more settled.   Full back up support is given with your overnight packs transported to the next venue and all catering provided.  Form your own group or contact us for details of our next cycle event.
