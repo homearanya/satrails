@@ -6,7 +6,7 @@ destination: Wild Coast
 activity: Slackpacking
 duration: 3 days, 3 nights
 price: From R6000
-bannerblurb: Long Weekend Special - Coffee Bay or Morgan Bay
+bannerblurb: Long Weekend Special - Morgan Bay to Chintsa
 shortdescription: >+
   A 3 day 3 night long weekend slackpacking hike on the Wild Coast with pleasant
   daily  walking and overnight  comfort.  Self drive to start hotel or fly into
