@@ -49,9 +49,9 @@ toursarea:
         - tour: Mini Break
     - heading1: Drakensberg Slackpacking
       tours:
+        - tour: Amphitheatre Hike
         - tour: Clarens Traverse
         - tour: Giants Cup Trail
-        - tour: Amphitheatre Hike
     - heading1: Midlands Slackpacking
       tours:
         - tour: KZN MIdlands Cycle Tour
