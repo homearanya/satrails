@@ -54,9 +54,9 @@ toursarea:
         - tour: Giants Cup Trail
     - heading1: Midlands Slackpacking
       tours:
-        - tour: KZN MIdlands Cycle Tour
         - tour: Karkloof Falls2Falls
-      heading2: and Cycle Tours
+        - tour: Meander Hike
+      heading2: ""
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
     dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
