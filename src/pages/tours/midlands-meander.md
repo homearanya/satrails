@@ -1,7 +1,7 @@
 ---
 templateKey: tour-page
 featured: true
-tour_id: Meander Cycle Tour
+tour_id: KZN MIdlands Cycle Tour
 destination: Midlands
 activity: Cycle Tour
 duration: 1-2 nights
