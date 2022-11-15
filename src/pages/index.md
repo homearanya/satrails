@@ -55,7 +55,6 @@ toursarea:
     - heading1: Midlands Slackpacking
       tours:
         - tour: Karkloof Falls2Falls
-        - tour: Meander Hike
       heading2: ""
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
