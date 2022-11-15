@@ -24,9 +24,9 @@ section:
       alt: Giants Cup Trail
       image: /img/giants-cup-trail450x300.jpg
     tours:
+      - tour: Amphitheatre Hike
       - tour: Clarens Traverse
       - tour: Giants Cup Trail
-      - tour: Mehloding
   - heading1: Cycle Tours
     image:
       image: /img/about-cycle-tours540x300-min.jpg
