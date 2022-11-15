@@ -51,12 +51,11 @@ toursarea:
       tours:
         - tour: Clarens Traverse
         - tour: Giants Cup Trail
-        - tour: Mehloding
+        - tour: Amphitheatre Hike
     - heading1: Midlands Slackpacking
       tours:
+        - tour: KZN MIdlands Cycle Tour
         - tour: Karkloof Falls2Falls
-        - tour: Dargle Samango
-        - tour: Meander Cycle Tour
       heading2: and Cycle Tours
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
