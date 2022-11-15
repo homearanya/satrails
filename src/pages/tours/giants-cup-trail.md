@@ -16,7 +16,7 @@ imagethumbnail:
   image: /img/kd1_thumb.jpg
 imagebanner:
   alt: Giants Cup Trail - View from Swiman's Hut
-  image: /img/giants-cup-trail450x300.jpg
+  image: /img/kd1_005.jpg
 photoGallery:
   photo:
     - alt: Summer walking
@@ -31,12 +31,6 @@ photoGallery:
     - alt: Climbing Black Eagle Pass
       caption: Climbing Black Eagle Pass
       image: /img/kd1_001.jpg
-    - alt: Trekking on Day 1
-      caption: Trekking on Day 1
-      image: /img/kd1_003.jpg
-    - alt: "Winter hiking "
-      caption: "Winter hiking "
-      image: /img/giants-cup375x375-min.jpg
 ---
 
 The Giants Cup Hiking Trail is part of the National Hiking Way. The hike follows a well established and clearly marked trail that runs southwards from Sani Pass in the north to Bushmans Nek in the south, the full trail being approximately 60km in length. It falls within the Ukahlamba Wilderness Area (a World Heritage Site) and is administered by KZN Wildlife who provide 5 overnight huts along the route - at Pholela (Cobham valley), Mzimkhulwana, Winterhoek and Swimans (in the Drakensberg Gardens valley) and at Bushmans Nek.
