@@ -49,14 +49,13 @@ toursarea:
         - tour: Mini Break
     - heading1: Drakensberg Slackpacking
       tours:
+        - tour: Amphitheatre Hike
         - tour: Clarens Traverse
         - tour: Giants Cup Trail
-        - tour: Amphitheatre Hike
     - heading1: Midlands Slackpacking
       tours:
-        - tour: KZN MIdlands Cycle Tour
         - tour: Karkloof Falls2Falls
-      heading2: and Cycle Tours
+      heading2: ""
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
     dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
