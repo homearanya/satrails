@@ -4,13 +4,15 @@ featured: true
 tour_id: Meander Cycle Tour
 destination: Midlands
 activity: Cycle Tour
-duration: 3 nights
-price: R8000
+duration: 1-2 nights
+price: From R4000
 bannerblurb: Cycle Touring the KZN Midlands
-shortdescription: "Explore the quiet backroads  of the KwaZulu Natal Midlands on
-  a 3 day 3 night cycle ride. Includes guesthouse accommodation, all meals,
-  fully guided with luggage transfers and backup support as well as authentic
-  Midlands Meander experiences.  "
+shortdescription: Explore the quiet backroads  of the KwaZulu Natal Midlands by
+  e-bike or mountain bike. Includes guesthouse accommodation, all meals, fully
+  guided with luggage transfers and backup support as well as authentic local
+  tours and experiences.  Routes customised according to rider ability and
+  interests.  Daily distances from 30km to 60km.  Combination of gravel district
+  roads, forest and farm roads and some single track if requested.
 imagethumbnail:
   alt: Midlands Meander
   image: /img/ct2_02.jpg
