@@ -5,7 +5,7 @@ tour_id: KZN MIdlands Cycle Tour
 destination: Midlands
 activity: Cycle Tour
 duration: 1-2 nights
-price: From R4000
+price: R4000
 bannerblurb: Cycle Touring the KZN Midlands
 shortdescription: Explore the quiet backroads  of the KwaZulu Natal Midlands by
   e-bike or mountain bike. Includes guesthouse accommodation, all meals, fully
