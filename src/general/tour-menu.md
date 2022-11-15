@@ -33,6 +33,6 @@ section:
       alt: "Supported Multi Day Cycle Tours  "
     tours:
       - tour: Battlefields
-      - tour: KZN MIdlands Cycle Tour
+      - tour: KZN Midlands Cycle Tour
       - tour: Trappist Monastery
 ---
