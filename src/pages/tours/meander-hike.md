@@ -21,12 +21,10 @@ photoGallery:
   photo:
     - image: /img/meander-hike-gallery_4.jpg
       alt: Wavecrest Hotel on Day 2
-    - image: /img/meander-hike-gallery_5.jpg
+    - image: /img/meander-hike-gallery_7.jpg
       alt: Beach Walking
     - image: /img/meander-hike-gallery_6.jpg
       alt: Meander 5
-    - image: /img/meander-hike-gallery_7.jpg
-      alt: Meander 6
     - image: /img/wc3_mb.jpg
       alt: Kei Mouth pic
     - image: /img/meander-hike-gallery_9.jpg
