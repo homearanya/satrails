@@ -19,10 +19,8 @@ imagebanner:
   image: /img/wild-coast-meander1600x596-min.jpg
 photoGallery:
   photo:
-    - alt: Fisherman along the hike
-      image: /img/meander-hike-gallery_1.jpg
     - image: /img/meander-hike-gallery_4.jpg
-      alt: Meander 4
+      alt: Wavecrest Hotel on Day 2
     - image: /img/meander-hike-gallery_5.jpg
       alt: Beach Walking
     - image: /img/meander-hike-gallery_6.jpg
