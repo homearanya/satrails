@@ -5,8 +5,8 @@ tour_id: Sunshine Hike
 destination: Wild Coast
 activity: Slackpacking
 duration: 5 days
-price: R 8000
-bannerblurb: 5 days, 5 nights from Wavecrest to Chintsa
+price: R 8500
+bannerblurb: 4 days hike, 5 nights from Wavecrest to Chintsa
 shortdescription: Takes in the best of Wild Coast scenery over 4 hiking days
   between Wavecrest and Crawfords hotel Chintsa in the south.  Dinner, bed and
   breakfast with packed lunches from hotels. Fully guided and shuttle service.
@@ -19,15 +19,11 @@ imagebanner:
   image: /img/sunshine-hike1600x596-min.jpg
 photoGallery:
   photo:
-    - alt: Fishing inspector
-      image: /img/meander-hike-gallery_1.jpg
-    - image: /img/about.jpg
-      alt: Sunshine 1
     - caption: Wavecrest lagoon
       image: /img/meander-hike-gallery_4.jpg
       alt: Wavecrest Hotel
-    - image: /img/meander-hike-gallery_5.jpg
-      alt: Beach Walk
+    - image: /img/wc3_ferry.jpg
+      alt: Ferry over pont at Kei River
     - image: /img/meander-hike-gallery_7.jpg
       alt: Hikers Near Cebe
     - image: /img/wc2_morganbaycliffs.jpg
