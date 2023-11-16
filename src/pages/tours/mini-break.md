@@ -5,7 +5,7 @@ tour_id: Mini Break
 destination: Wild Coast
 activity: Slackpacking
 duration: 3 days, 3 nights
-price: From R6000
+price: From R6400
 bannerblurb: Long Weekend Special - Morgan Bay to Chintsa
 shortdescription: >+
   A 3 day 3 night long weekend slackpacking hike on the Wild Coast with pleasant
@@ -25,16 +25,14 @@ imagebanner:
   image: /img/wc_minibreak.jpg
 photoGallery:
   photo:
-    - alt: "Sunset "
-      image: /img/wc3_01.jpg
-    - alt: The pont at Kei Mouth
-      image: /img/wc3_ferry.jpg
-    - alt: Ferry Boat at Umthata Mouth
-      caption: Ferry Boat at Umthata Mouth
-      image: /img/coffeebay_umthataferry.jpg
-    - alt: "Presleys Bay "
-      caption: Presleys Bay
-      image: /img/coffeebay_presleys.jpg
+    - image: /img/minibreak_03.jpg
+      alt: Pullens Bay near Haga Haga
+    - image: /img/minibreak_01.jpg
+      alt: "Shelly beaches "
+    - image: /img/lalin_05.jpg
+      alt: Walk down to Chintsa
+    - image: /img/crawfords-pool.jpg
+      alt: Crawfords at Chintsa
 ---
 The **lower Wild Coast Mini-break** hike takes in the last 2 or 3 days of the Sunshine route from Morgan Bay to Chintsa.   Fly into East London on a Thursday for the 2 hour shuttle to Morgan Bay to start your hike the next day.  
 
