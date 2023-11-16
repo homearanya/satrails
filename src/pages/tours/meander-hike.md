@@ -5,16 +5,15 @@ tour_id: Meander Hike
 destination: Wild Coast
 activity: Slackpacking
 duration: 5 days
-price: From R7700
-bannerblurb: 5 days, 5 nights - Kob Inn to Morgan Bay
+price: From R8200
+bannerblurb: 4 days hike, 5 nights - Kob Inn to Morgan Bay
 shortdescription: Easy walking along wide sandy beaches running south from Kob
   Inn and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
   breakfast with packed lunches at hotels, fully guided and shuttle
-  service.  Bags transported by porters or by arrangement by vehicle between
-  hotels.
+  service.  Bags transported by porters.
 imagethumbnail:
   alt: Meander Hike
-  image: /img/meander-hike375x375-min.jpg
+  image: /img/meander-hike-gallery_4.jpg
 imagebanner:
   alt: Meander Hikers Starting Out
   image: /img/wild-coast-meander1600x596-min.jpg
@@ -39,4 +38,4 @@ The Meander 5 night 4 day hike was the first established on the lower Wild Coast
 
 Most of the Meander route follows the long sandy beaches that characterise this section of the coast. There are few hills or rocky headlands that hinder your progress along wide open expanses of sea and sand broken only by small lagoons and river valleys lined by coastal dune forest vegetation.
 
-The tour provides for either fly-in or self drive to the Eastern Cape with shuttles to the start of the Meander route at either Kob Inn or Mazeppa Bay. After the first night dinner, bed and breakfast accommodation you will meet with your guide and arrange for porters drawn from local villages to carry your bags to the next hotel in the chain. The chain of hotels extends at approx. 15km intervals from Kob Inn south to the old border of the Kei river. Here you will take the pont (one of the last operating in the country) and after a short stroll you will reach the holiday and retirement settlement of Morgan Bay which connects through to East London. Here your tour ends with either a pick up of your car or a shuttle back the next day to East London Airport for your flight home.
+The tour provides for either fly-in or self drive to the Eastern Cape with shuttles to the start of the Meander route at either Kob Inn or Mazeppa Bay. After the first night dinner, bed and breakfast accommodation you will meet with your guide and arrange for porters drawn from local villages to carry your bags to the next hotel in the chain. The chain of hotels extends at approx. 15km intervals from Kob Inn south to the old border of the Kei river. Here you will take the pont (one of the last operating in the country) and after a short stroll you will reach the holiday settlement of Morgan Bay which connects through to East London. Here your tour ends with either a pick up of your car or a shuttle back the next day to East London Airport for your flight home.
