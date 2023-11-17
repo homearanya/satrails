@@ -1,7 +1,7 @@
 ---
 templateKey: tour-page
 featured: true
-tour_id: Kamberg Cycle Tour
+tour_id: Kamberg Cycle Tours
 destination: Midlands
 activity: Cycle Tour
 duration: 2-3 nights
@@ -15,10 +15,10 @@ shortdescription: "Explore the quiet backroads  of the KwaZulu Natal Midlands
   point.  Combination of gravel district roads, forest and farm roads and some
   single track if requested. "
 imagethumbnail:
-  alt: Midlands Meander
+  alt: "Cycle Touring in the KZN Midlands. "
   image: /img/ct2_02.jpg
 imagebanner:
-  alt: Midlands Meander
+  alt: Kamberg Cycle  Tours
   image: /img/kambergcycle_banner.jpg
 photoGallery:
   photo:
