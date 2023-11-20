@@ -13,8 +13,8 @@ slider:
     image:
       alt: Midlands Walks and Cycle Tours
       image: /img/midlands-cycling-1600x750.jpg
-    subheading1: EXPLORE THE
-    subheading2: KZN MIDLANDS
+    subheading1: KZN MIDLANDS
+    subheading2: ""
   - heading1: DRAKENSBERG
     heading2: SLACKPACKING
     image:
@@ -49,13 +49,16 @@ toursarea:
         - tour: Mini Break
     - heading1: Drakensberg Slackpacking
       tours:
-        - tour: Amphitheatre Hike
-        - tour: Clarens Traverse
         - tour: Giants Cup Trail
+        - tour: Clarens Traverse
     - heading1: Midlands Slackpacking
       tours:
         - tour: Karkloof Falls2Falls
       heading2: ""
+    - heading1: Cycle Tours
+      tours:
+        - tour: Kamberg Cycle Tours
+        - tour: Trappist Monastery
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
     dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
