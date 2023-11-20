@@ -56,6 +56,11 @@ toursarea:
       tours:
         - tour: Karkloof Falls2Falls
       heading2: ""
+    - heading1: Cycle Tours
+      tours:
+        - tour: Battlefields
+        - tour: Kamberg Cycle Tours
+        - tour: Trappist Monastery
 blogarea:
   blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
     dolor turpis, pulvinar varius dui<br /> id, convallis iaculis eros. Praesent
