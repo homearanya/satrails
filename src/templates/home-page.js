@@ -17,6 +17,9 @@ export default function Index({ data }) {
       "SA Adventure Trails is a marketing association between Paul Colvin of Wild Coast Walks and Julia Colvin of Spekboom Tours.",
     slug: fields.slug,
   }
+  if (frontmatter.seo) {
+    Object.assign(pageMeta, frontmatter.seo)
+  }
   return (
     <Layout>
       <SEO pageData={pageMeta} pageType="home" />

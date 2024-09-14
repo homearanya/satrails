@@ -1,5 +1,13 @@
 ---
 templateKey: about-page
+seo:
+  title: About Us · Slackpacking, Walks & Cycle Tours
+  description: >-
+    SA Adventure Trails is a marketing association between Paul Colvin 
+    of Wild Coast Walks and Julia Colvin of Spekboom Tours.
+  image:
+    alt: About Us
+    image: /img/about-us1600x596-min.jpg
 banner:
   blurb: A brief description and background to 'who we are' and 'how we operate' ..
   imagebanner:
@@ -9,8 +17,8 @@ aboutarea:
   heading1: Where We Operate
   heading2: KZN and the Eastern Cape
   image:
-    alt: ''
-  text: ''
+    alt: ""
+  text: ""
 destinationsarea:
   destination:
     - content:
@@ -30,7 +38,7 @@ destinationsarea:
               rehabilitation and upliftment programs and excursions to local
               businesses and other community minded initiatives
       heading1: Our Ethos
-      heading2: ''
+      heading2: ""
       image:
         alt: Lunch at Mgeni valley nature reserve
         image: /img/sm2_015.jpg
@@ -63,7 +71,7 @@ destinationsarea:
               concept in USA, Australasia and Europe but is still being
               developed here in South Africa.  We hope to be part of that
               process of bringing South Africa's wonderful wildlife and scenery
-              to as many people as possible. 
+              to as many people as possible.
       heading1: What is
       heading2: SlackPacking
       image:
@@ -82,7 +90,7 @@ destinationsarea:
               bike, Spekboom bespoke cycle tours recognises the value of
               carefree cycling with luggage transfers, between overnight stays,
               a cold beer , a home cooked meal with a glass of wine and a warm
-              bed at the end of each day. 
+              bed at the end of each day.
           - text: >-
               For this reason, all our cycle Tour offer homely accommodation,
               back-up support and delicious meals. Using quite non-technical
@@ -115,7 +123,7 @@ destinationsarea:
               outdoors.  Daily hiking distances are generally not more than 15km
               or 3-4 hours of comfortable hiking with breaks.  Once you have
               chosen your tour ,then the decision of when to book must be
-              made.  
+              made.
           - text: >-
               Multi-day tours link together a chain of hotels and lodges so all
               be available on the day of arrival for one night stays.  For this
@@ -132,7 +140,7 @@ destinationsarea:
               rate. Finally, for most outdoor activities in the eastern half of
               South Africa the best time to tour  is during the spring and
               autumn months when temperatures are ideal and there is generally
-              less chance of rainstorms and cold weather.  
+              less chance of rainstorms and cold weather.
       heading1: Customising
       heading2: Your Tour
       image:
@@ -170,7 +178,7 @@ partnersarea:
               where he is now considering e-bike touring as an alternate and
               more gentle pursuit.
       heading1: Paul Colvin
-      heading2: ''
+      heading2: ""
       image:
         alt: Paul Colvin
         image: /img/paul-colvin270x300.jpg
@@ -183,7 +191,7 @@ partnersarea:
               facilitator. Most days she is out doing recce trips of trails in
               the Karkloof/Howick forests or helping a local schools set up a
               permacultural garden or talking to pupils about the wise use of
-              water resources. 
+              water resources.
           - text: >-
               Spekboom Tours was established as an extension of her passions and
               way of life. After spending many happy months backpacking around
@@ -193,10 +201,9 @@ partnersarea:
               share her knowledge and love for the KZN Midlands area with you. 
               With spectacular hiking and cycling trails in her backyard of
               Howick she is often out exploring which may explain why she may be
-              a little breathless when she answers her phone !  
+              a little breathless when she answers her phone !
       heading1: Julia Colvin
       image:
         alt: Julia Colvin
         image: /img/about-julia-colvin270x300.jpg
 ---
-

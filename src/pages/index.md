@@ -1,5 +1,13 @@
 ---
 templateKey: home-page
+seo:
+  title: Slackpacking, Walks & Cycle Tours
+  description: >-
+    SA Adventure Trails is a marketing association between Paul Colvin 
+    of Wild Coast Walks and Julia Colvin of Spekboom Tours.
+  image:
+    alt: Wild Coast Slackpacking
+    image: /img/wild-coast-1600x750.jpg
 slider:
   - heading1: WILD COAST
     heading2: SLACKPACKING

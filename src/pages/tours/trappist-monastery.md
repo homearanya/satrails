@@ -1,6 +1,16 @@
 ---
 templateKey: tour-page
 featured: true
+seo:
+  title: Trappist Monastery · Midlands · Slackpacking  · Tours
+  description: >-
+    A 4 night 4 day cycle tour through Alan Paton countryside of Ixopo, Creighton
+    and Underberg visiting Trappist Mission stations.  Guesthouse accommodation,
+    Mission stay, all meals, fully guided with history tours, luggage transfers
+    and backup support.
+  image:
+    alt: Trappist Monastery
+    image: /img/ct3_005.jpg
 tour_id: Trappist Monastery
 destination: Midlands
 activity: Cycle Tour

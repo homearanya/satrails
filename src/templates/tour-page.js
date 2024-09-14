@@ -37,6 +37,9 @@ export default class TourPage extends Component {
       tourImages: schemaImages,
       datePublished: false,
     }
+    if (tourInfo.frontmatter.seo) {
+      Object.assign(pageMeta, tourInfo.frontmatter.seo)
+    }
     return (
       <Layout tourPage>
         <SEO pageData={pageMeta} pageType="tour" />

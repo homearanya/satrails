@@ -1,5 +1,13 @@
 ---
 templateKey: tour-page
+seo:
+  title: Mehloding · Drakensberg · Slackpacking  · Tours
+  description: >-
+    Community run trail of 4 days and 4 nights through the mountains of East
+    Griqualand
+  image:
+    alt: Mehloding
+    image: /img/mehloding-banner1600x596-min.jpg
 featured: true
 tour_id: Mehloding
 destination: Drakensberg

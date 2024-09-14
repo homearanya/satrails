@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import { graphql } from "gatsby";
+import React, { Component } from "react"
+import { graphql } from "gatsby"
 
-import Layout from "../components/Layout";
-import Banner from "../components/Banner";
-import { ContactForm } from "../components/ContactForm";
+import Layout from "../components/Layout"
+import Banner from "../components/Banner"
+import { ContactForm } from "../components/ContactForm"
 import ContactDetails, {
-  ContactDetailsTemplate
-} from "../components/ContactDetails";
-import SEO from "../components/SEO/SEO";
+  ContactDetailsTemplate,
+} from "../components/ContactDetails"
+import SEO from "../components/SEO/SEO"
 
-import "../assets/css/contact.css";
+import "../assets/css/contact.css"
 
 export const ContactFormTemplate = ({ location, contact_details }) => {
   return (
@@ -50,19 +50,22 @@ export const ContactFormTemplate = ({ location, contact_details }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default class ContactPage extends Component {
   render() {
-    const { fields, frontmatter } = this.props.data.ContactPageQuery;
+    const { fields, frontmatter } = this.props.data.ContactPageQuery
 
     const pageMeta = {
       title: `Contact Us · Slackpacking, Walks & Cycle Tours`,
       description: `Contact us by email, phone or through our web form`,
       slug: fields.slug,
-      datePublished: false
-    };
+      datePublished: false,
+    }
+    if (frontmatter.seo) {
+      Object.assign(pageMeta, frontmatter.seo)
+    }
     return (
       <Layout>
         <SEO pageData={pageMeta} />
@@ -76,26 +79,27 @@ export default class ContactPage extends Component {
         />
         <ContactFormTemplate location={this.props.location} />
       </Layout>
-    );
+    )
   }
 }
 
-export const contactPageQuery = graphql`query ContactPage($id: String!) {
-  ContactPageQuery: markdownRemark(id: {eq: $id}) {
-    fields {
-      slug
-    }
-    frontmatter {
-      blurb
-      imagebanner {
-        image {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+export const contactPageQuery = graphql`
+  query ContactPage($id: String!) {
+    ContactPageQuery: markdownRemark(id: { eq: $id }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        blurb
+        imagebanner {
+          image {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
           }
+          alt
         }
-        alt
       }
     }
   }
-}
-`;
+`

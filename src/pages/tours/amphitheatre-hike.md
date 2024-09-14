@@ -1,5 +1,15 @@
 ---
 templateKey: tour-page
+seo:
+  title: Amphitheatre Hike · Drakensberg · Slackpacking  · Tours
+  description: >-
+    Ascent of the 3000m Amphitheatre peak on the Drakensberg escarpment from Royal
+    National Park over 3 days and nights. A fully guided slackpacking hike on an
+    established route suited for walkers of moderate fitness.  One of the iconic
+    trails in South Africa
+  image:
+    alt: Tugela Falls
+    image: /img/amphitheatre1600x596-min.jpg
 featured: true
 tour_id: Amphitheatre Hike
 destination: Drakensberg

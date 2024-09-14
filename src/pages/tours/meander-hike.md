@@ -1,5 +1,15 @@
 ---
 templateKey: tour-page
+seo:
+  title: Meander Hike · Wild Coast · Slackpacking  · Tours
+  description: >-
+    Easy walking along wide sandy beaches running south from Kob
+    Inn and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
+    breakfast with packed lunches at hotels, fully guided and shuttle
+    service.  Bags transported by porters.
+  image:
+    alt: Karkloof Falls
+    image: /img/karkloof-falls-banner1600x596-min.jpg
 featured: true
 tour_id: Meander Hike
 destination: Wild Coast
@@ -30,6 +40,7 @@ photoGallery:
     - image: /img/meander-hike-gallery_9.jpg
       alt: River crossing
 ---
+
 The Meander 5 night 4 day hike was the first established on the lower Wild Coast and has been running for more than 30 years. It runs through what was the old Transkei following the coastline through communal tribal land with small settlements and huts dotting the rolling grassy hills. At approximately 15km intervals there is a chain of small mostly family run hotels providing simple but comfortable overnight accommodation for travellers and holiday makers in season. There are few coastal roads other than those leading down to the hotels so most of the terrain is wide open and untarnished by modern developments or tarred roads. Just the local communities subsisting in ways that have changed little over the years.
 
 Most of the Meander route follows the long sandy beaches that characterise this section of the coast. There are few hills or rocky headlands that hinder your progress along wide open expanses of sea and sand broken only by small lagoons and river valleys lined by coastal dune forest vegetation.

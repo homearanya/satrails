@@ -1,5 +1,14 @@
 ---
 templateKey: tour-page
+seo:
+  title: Giants Cup Trail · Drakensberg · Slackpacking  · Tours
+  description: >-
+    Drakenberg from Sani Pass to Bushmans Nek.  Self guided well marked trail with
+    daily shuttles from the trail head to small hotels and  lodges for overnight
+    accommodation.
+  image:
+    alt: Midlands Grasslands
+    image: /img/sm2_banner.jpg
 featured: true
 tour_id: Giants Cup Trail
 destination: Drakensberg

@@ -1,5 +1,15 @@
 ---
 templateKey: tour-page
+seo:
+  title: Midlands Samango · Midlands · Slackpacking  · Tours
+  description: >-
+    A 3 day, 3 night slackpacking through the beautiful mistbelt
+    forest and pristine grasslands of protected conservancies  KZN
+    Midlands.  Fully guided and includes all meals, farmstyle accommodation and
+    luggage transfers.
+  image:
+    alt: Midlands Grasslands
+    image: /img/sm2_banner.jpg
 featured: true
 tour_id: Midlands Samango
 destination: Midlands
@@ -38,7 +48,8 @@ photoGallery:
       caption: "Forest Clearing "
       image: /img/sm2_013.jpg
 ---
-This is a three day round hike encompassing curated paths through one of the oldest and most well protected nature conservancies in the Midlands. Well known for its rich biodiversity, the daily hikes are gentle in distance and gradient making this a perfect beginner’s hike.  
+
+This is a three day round hike encompassing curated paths through one of the oldest and most well protected nature conservancies in the Midlands. Well known for its rich biodiversity, the daily hikes are gentle in distance and gradient making this a perfect beginner’s hike.
 
 Highlights include traversing the forest canopy on a zip line tour (optional), an indigenous tree trail and lodging in old Natal farm houses.
 
@@ -50,6 +61,6 @@ Average daily walking distances: 6-13 km/day
 
 Accommodation types: Midlands-style B&B, farm cottages
 
-Inclusive of 3 nights accommodation, all meals, luggage transfer, registered guide, conservancy fees.  Bespoke tours can also be arranged for organised groups with special interests: Birding, biomimicry, ecology, yoga and meditation and botanical interest.
+Inclusive of 3 nights accommodation, all meals, luggage transfer, registered guide, conservancy fees. Bespoke tours can also be arranged for organised groups with special interests: Birding, biomimicry, ecology, yoga and meditation and botanical interest.
 
 Nature-based eco-tourism is one of the principal aims of Spekboom Tours as 10% of all profits are donated towards ongoing conservation projects.

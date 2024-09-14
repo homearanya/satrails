@@ -1,22 +1,25 @@
-import React from "react";
-import { graphql } from "gatsby";
+import React from "react"
+import { graphql } from "gatsby"
 
-import Layout from "../components/Layout";
-import Banner from "../components/Banner";
-import SEO from "../components/SEO/SEO";
-import DestinationsArea from "../components/DestinationsArea";
-import AssociatesArea from "../components/AssociatesArea";
+import Layout from "../components/Layout"
+import Banner from "../components/Banner"
+import SEO from "../components/SEO/SEO"
+import DestinationsArea from "../components/DestinationsArea"
+import AssociatesArea from "../components/AssociatesArea"
 
-import "../assets/css/about.css";
+import "../assets/css/about.css"
 
 export default ({ data }) => {
-  const { fields, frontmatter } = data.AboutPageQuery;
+  const { fields, frontmatter } = data.AboutPageQuery
   const pageMeta = {
     title: `About Us · Slackpacking, Walks & Cycle Tours`,
     description: `SA Adventure Trails is a marketing association between Paul Colvin of Wild Coast Walks and Julia Colvin of Spekboom Tours.`,
     slug: fields.slug,
-    datePublished: false
-  };
+    datePublished: false,
+  }
+  if (frontmatter.seo) {
+    Object.assign(pageMeta, frontmatter.seo)
+  }
   return (
     <Layout>
       <SEO pageData={pageMeta} />
@@ -42,71 +45,72 @@ export default ({ data }) => {
         destinations={frontmatter.destinationsarea.destination}
       />
     </Layout>
-  );
-};
+  )
+}
 
-export const aboutPageQuery = graphql`query AboutPage($id: String!) {
-  AboutPageQuery: markdownRemark(id: {eq: $id}) {
-    fields {
-      slug
-    }
-    frontmatter {
-      banner {
-        blurb
-        imagebanner {
-          image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
-            }
-          }
-          alt
-        }
+export const aboutPageQuery = graphql`
+  query AboutPage($id: String!) {
+    AboutPageQuery: markdownRemark(id: { eq: $id }) {
+      fields {
+        slug
       }
-      destinationsarea {
-        heading1
-        heading2
-        introduction
-        destination {
-          image {
+      frontmatter {
+        banner {
+          blurb
+          imagebanner {
             image {
               childImageSharp {
-                gatsbyImageData(width: 600, height: 400, layout: CONSTRAINED)
+                gatsbyImageData(layout: FULL_WIDTH)
               }
             }
             alt
           }
+        }
+        destinationsarea {
           heading1
           heading2
-          content {
-            paragraph {
-              text
+          introduction
+          destination {
+            image {
+              image {
+                childImageSharp {
+                  gatsbyImageData(width: 600, height: 400, layout: CONSTRAINED)
+                }
+              }
+              alt
+            }
+            heading1
+            heading2
+            content {
+              paragraph {
+                text
+              }
             }
           }
         }
-      }
-      partnersarea {
-        heading1
-        heading2
-        introduction
-        partner {
-          image {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 270, layout: CONSTRAINED)
-              }
-            }
-            alt
-          }
+        partnersarea {
           heading1
           heading2
-          content {
-            paragraph {
-              text
+          introduction
+          partner {
+            image {
+              image {
+                childImageSharp {
+                  gatsbyImageData(width: 270, layout: CONSTRAINED)
+                }
+              }
+              alt
+            }
+            heading1
+            heading2
+            content {
+              paragraph {
+                text
+              }
             }
           }
         }
       }
     }
   }
-}
-`;
+`

@@ -23,6 +23,29 @@ collections:
           widget: "hidden",
           default: "upcoming-events",
         }
+      - label: SEO
+        label_singular: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Image
+            name: image
+            widget: object
+            fields:
+              - {
+                  label: Image,
+                  name: image,
+                  widget: image,
+                  hint: "size 1600 x 987",
+                }
+              - {
+                  label: Title,
+                  name: alt,
+                  widget: text,
+                  hint: "Please inform. Important for SEO",
+                }
       - {
           label: "Title",
           name: "title",
@@ -63,6 +86,29 @@ collections:
           widget: "hidden",
           default: "blog-post",
         }
+      - label: SEO
+        label_singular: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Image
+            name: image
+            widget: object
+            fields:
+              - {
+                  label: Image,
+                  name: image,
+                  widget: image,
+                  hint: "size 1600 x 987",
+                }
+              - {
+                  label: Title,
+                  name: alt,
+                  widget: text,
+                  hint: "Please inform. Important for SEO",
+                }
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Publish Date",
@@ -91,6 +137,29 @@ collections:
           widget: "hidden",
           default: "tour-page",
         }
+      - label: SEO
+        label_singular: SEO
+        name: seo
+        widget: object
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - label: Image
+            name: image
+            widget: object
+            fields:
+              - {
+                  label: Image,
+                  name: image,
+                  widget: image,
+                  hint: "size 1600 x 987",
+                }
+              - {
+                  label: Title,
+                  name: alt,
+                  widget: text,
+                  hint: "Please inform. Important for SEO",
+                }
       - {
           label: "Featured?",
           name: "featured",
@@ -188,6 +257,29 @@ collections:
               widget: hidden,
               default: "home-page",
             }
+          - label: SEO
+            label_singular: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Image,
+                      name: image,
+                      widget: image,
+                      hint: "size 1600 x 987",
+                    }
+                  - {
+                      label: Title,
+                      name: alt,
+                      widget: text,
+                      hint: "Please inform. Important for SEO",
+                    }
           - label: Slider
             label_singular: Slide
             name: slider
@@ -310,6 +402,29 @@ collections:
               widget: "hidden",
               default: "about-page",
             }
+          - label: SEO
+            label_singular: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Image,
+                      name: image,
+                      widget: image,
+                      hint: "size 1600 x 987",
+                    }
+                  - {
+                      label: Title,
+                      name: alt,
+                      widget: text,
+                      hint: "Please inform. Important for SEO",
+                    }
           - label: Banner
             name: banner
             widget: object
@@ -469,6 +584,29 @@ collections:
               widget: "hidden",
               default: "contact-page",
             }
+          - label: SEO
+            label_singular: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Image,
+                      name: image,
+                      widget: image,
+                      hint: "size 1600 x 987",
+                    }
+                  - {
+                      label: Title,
+                      name: alt,
+                      widget: text,
+                      hint: "Please inform. Important for SEO",
+                    }
           - { label: Blurb, name: blurb, widget: text }
           - label: "Banner Image"
             name: imagebanner
@@ -504,6 +642,29 @@ collections:
               widget: "hidden",
               default: "tour-calendar-page",
             }
+          - label: SEO
+            label_singular: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Image,
+                      name: image,
+                      widget: image,
+                      hint: "size 1600 x 987",
+                    }
+                  - {
+                      label: Title,
+                      name: alt,
+                      widget: text,
+                      hint: "Please inform. Important for SEO",
+                    }
           - { label: Blurb, name: blurb, widget: text }
           - label: "Banner Image"
             name: imagebanner
@@ -547,6 +708,29 @@ collections:
               widget: "hidden",
               default: "blog-list",
             }
+          - label: SEO
+            label_singular: SEO
+            name: seo
+            widget: object
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: string }
+              - label: Image
+                name: image
+                widget: object
+                fields:
+                  - {
+                      label: Image,
+                      name: image,
+                      widget: image,
+                      hint: "size 1600 x 987",
+                    }
+                  - {
+                      label: Title,
+                      name: alt,
+                      widget: text,
+                      hint: "Please inform. Important for SEO",
+                    }
           - { label: Blurb, name: blurb, widget: text }
           - label: "Banner Image"
             name: imagebanner

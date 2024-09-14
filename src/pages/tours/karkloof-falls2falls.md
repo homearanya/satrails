@@ -1,5 +1,16 @@
 ---
 templateKey: tour-page
+seo:
+  title: Karkloof Falls2Falls · Midlands · Slackpacking  · Tours
+  description: >-
+    This is a 3 day 3 night slackpacking hike through  the Karkloof Valley, 
+    KZN Midlands. All inclusive of comfortable accommodation, all
+    meals, luggage transfer, fully guided, conservancy fees a forest canopy tour.
+    Bespoke tours can also be arranged for organised groups with special
+    interests.
+  image:
+    alt: Karkloof Falls
+    image: /img/karkloof-falls-banner1600x596-min.jpg
 featured: true
 tour_id: Karkloof Falls2Falls
 destination: Midlands

@@ -1,5 +1,13 @@
 ---
 templateKey: tour-calendar-page
+seo:
+  title: Tour Calendar · Slackpacking & Cycle Tours
+  description: >-
+    Find your tour. If the dates don't suit you we can still 
+    organise it for you
+  image:
+    alt: Tour Calendar
+    image: /img/tour-calendar-banner1600x596-min.jpg
 blurb: >-
   These are group tours scheduled for 2019 which are still taking new members.
   If you have your own group and would like to book an exclusive tour then
@@ -31,4 +39,3 @@ toursOrigin:
   - Sunshine Hike
   - Trappist Monastery
 ---
-

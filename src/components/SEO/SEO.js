@@ -1,7 +1,7 @@
-import React from "react";
-import Helmet from "react-helmet";
-import { StaticQuery, graphql } from "gatsby";
-import SchemaOrg from "./SchemaOrg";
+import React from "react"
+import Helmet from "react-helmet"
+import { StaticQuery, graphql } from "gatsby"
+import SchemaOrg from "./SchemaOrg"
 
 const SEO = ({ pageData, postImage, pageType }) => (
   <StaticQuery
@@ -39,51 +39,53 @@ const SEO = ({ pageData, postImage, pageType }) => (
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       // data for SEO & schemaOrg
-      const { siteMetadata: seo } = data.SEOQuery;
+      const { siteMetadata: seo } = data.SEOQuery
       // data for organization schemaOrg
-      let organization = seo.organization;
+      let organization = seo.organization
       organization.phone =
-        data.PhoneDetailsQuery.childMarkdownRemark.frontmatter.contact_details.phone.phonedisplay;
-      const pageMeta = pageData || {};
+        data.PhoneDetailsQuery.childMarkdownRemark.frontmatter.contact_details.phone.phonedisplay
+      const pageMeta = pageData || {}
 
-      const metaTitle = pageMeta.title || seo.title;
+      const metaTitle = pageMeta.title || seo.title
       const metaDescription =
-        pageMeta.description || pageData.excerpt || seo.description;
+        pageMeta.description || pageData.excerpt || seo.description
       const url = pageMeta.slug
         ? `${seo.canonicalUrl}${pageMeta.slug}`
-        : seo.canonicalUrl;
+        : seo.canonicalUrl
       // tour data for schemaOrg
-      let tour = {};
+      let tour = {}
       if (pageType === "tour") {
-        tour.name = pageMeta.tourName;
-        tour.description = pageMeta.description;
-        tour.images = pageMeta.tourImages;
-        tour.price = pageMeta.tourPrice;
-        tour.url = `${seo.canonicalUrl}${pageMeta.slug}`;
+        tour.name = pageMeta.tourName
+        tour.description = pageMeta.description
+        tour.images = pageMeta.tourImages
+        tour.price = pageMeta.tourPrice
+        tour.url = `${seo.canonicalUrl}${pageMeta.slug}`
       }
       // post data for schemaOrg
-      let post = {};
+      let post = {}
       if (pageType === "post") {
-        post.name = pageMeta.name;
-        post.alternateName = seo.defaultTitle;
-        post.description = pageMeta.description;
-        post.image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image;
-        post.dataPublished = pageMeta.datePublished;
-        post.url = `${seo.canonicalUrl}${pageMeta.slug}`;
-        post.author = seo.author;
+        post.name = pageMeta.name
+        post.alternateName = seo.defaultTitle
+        post.description = pageMeta.description
+        post.image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image
+        post.dataPublished = pageMeta.datePublished
+        post.url = `${seo.canonicalUrl}${pageMeta.slug}`
+        post.author = seo.author
       }
 
       // Meta image
-      let metaImage = seo.image;
+      let metaImage = pageMeta.image || seo.image
       if (pageType === "post") {
-        metaImage = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image;
+        metaImage = postImage
+          ? `${seo.canonicalUrl}${postImage}`
+          : pageMeta.image || seo.image
       } else if (pageType === "tour") {
         metaImage =
           pageMeta.tourImages.length > 0
             ? `${seo.canonicalUrl}/img${pageMeta.tourImages[0]}`
-            : seo.image;
+            : pageMeta.image || seo.image
       }
       return (
         <React.Fragment>
@@ -124,9 +126,9 @@ const SEO = ({ pageData, postImage, pageType }) => (
             post={post}
           />
         </React.Fragment>
-      );
+      )
     }}
   />
-);
+)
 
-export default SEO;
+export default SEO
