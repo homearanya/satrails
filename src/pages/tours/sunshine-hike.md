@@ -1,6 +1,5 @@
 ---
 templateKey: tour-page
-featured: true
 seo:
   title: Sunshine Hike · Wild Coast · Slackpacking  · Tours
   description: >-
@@ -11,6 +10,7 @@ seo:
   image:
     alt: Sunshine Hike
     image: /img/sunshine-hike1600x596-min.jpg
+featured: true
 tour_id: Sunshine Hike
 destination: Wild Coast
 activity: Slackpacking

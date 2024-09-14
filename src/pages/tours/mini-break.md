@@ -1,6 +1,5 @@
 ---
 templateKey: tour-page
-featured: true
 seo:
   title: Mini Break · Wild Coast · Slackpacking  · Tours
   description: >-
@@ -12,6 +11,7 @@ seo:
   image:
     alt: Mini Break
     image: /img/wc_minibreak.jpg
+featured: true
 tour_id: Mini Break
 destination: Wild Coast
 activity: Slackpacking

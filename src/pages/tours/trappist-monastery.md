@@ -1,6 +1,5 @@
 ---
 templateKey: tour-page
-featured: true
 seo:
   title: Trappist Monastery · Midlands · Slackpacking  · Tours
   description: >-
@@ -11,6 +10,7 @@ seo:
   image:
     alt: Trappist Monastery
     image: /img/ct3_005.jpg
+featured: true
 tour_id: Trappist Monastery
 destination: Midlands
 activity: Cycle Tour
