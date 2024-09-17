@@ -1,5 +1,12 @@
 ---
 templateKey: tour-page
+seo:
+  title: Clarens San Traverse
+  description: 3 day Slackpack hike in the Maluti Mountains around Clarens, Free
+    State, South Africa.
+  image:
+    image: /img/clarens_cave.jpg
+    alt: Rock Art painting near Clarens
 featured: true
 tour_id: Clarens Traverse
 destination: Drakensberg
