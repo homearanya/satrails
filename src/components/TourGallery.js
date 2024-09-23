@@ -7,7 +7,6 @@ function convertPhotos(photos, photoGalleryObject) {
   return photos
     .filter((photo) => photo.image)
     .map((photo, index) => {
-      console.log({ photo }, photo.image.childImageSharp)
       if (photo?.image) {
         if (photo.image.childImageSharp) {
           const src = getSrc(photo.image.childImageSharp.gatsbyImageData)
@@ -100,7 +99,6 @@ export default class TourGallery extends React.Component {
       this.props.photoGalleryObject
     )
     const images = convertImages(this.props.photos)
-    console.log({ photos })
     const photosCopy = JSON.parse(JSON.stringify(photos))
     return (
       <div>
