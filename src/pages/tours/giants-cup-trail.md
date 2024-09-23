@@ -2,8 +2,7 @@
 templateKey: tour-page
 seo:
   title: Giants Cup Trail · Drakensberg · Slackpacking  · Tours
-  description: >-
-    Drakenberg from Sani Pass to Bushmans Nek.  Self guided well marked trail with
+  description: Drakenberg from Sani Pass to Bushmans Nek.  Self guided trail with
     daily shuttles from the trail head to small hotels and  lodges for overnight
     accommodation.
   image:
@@ -14,7 +13,7 @@ tour_id: Giants Cup Trail
 destination: Drakensberg
 activity: Slackpacking
 duration: 4 nights
-price: From R8500
+price: R8500
 bannerblurb: 4 day 4 night hike in the Southern Drakensberg, from Sani Pass to Bushmans Nek
 shortdescription: Hike the 60km National Hiking Way in the foothills of the
   Drakenberg from Sani Pass to Bushmans Nek.  Self guided well marked trail with
