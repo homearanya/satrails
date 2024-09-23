@@ -17,7 +17,6 @@ section:
       image: /img/midlands-walks450x300.jpg
     tours:
       - tour: Karkloof Falls2Falls
-      - tour: Midlands Samango
   - heading1: Drakensberg Slackpacking
     heading2: " "
     image:
