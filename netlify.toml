@@ -1,13 +1,4 @@
-[[plugins]]
-package = "@netlify/plugin-gatsby"
-# build
-[build]
-command = "gatsby build"
-functions = "functions"
-publish = "public"
 [build.environment]
-AWS_LAMBDA_JS_RUNTIME = "nodejs14.x"
 GATSBY_CPU_COUNT = "2"
-# Headers 
-[[headers]]
-for = "/static/*"
+NETLIFY_YARN_WORKSPACES = "false"
+NODE_OPTIONS = "--max_old_space_size=4096"
