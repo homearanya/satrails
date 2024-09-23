@@ -53,8 +53,8 @@ toursarea:
       heading2: ""
       tours:
         - tour: Meander Hike
-        - tour: Coffee Bay Hike
         - tour: Mini Break
+        - tour: Sunshine Hike
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Giants Cup Trail
