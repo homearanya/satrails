@@ -2,11 +2,9 @@
 templateKey: tour-page
 seo:
   title: Sunshine Hike · Wild Coast · Slackpacking  · Tours
-  description: >-
-    Takes in the best of Wild Coast scenery over 4 hiking days
-    between Wavecrest and Crawfords hotel Chintsa in the south.  Dinner, bed and
-    breakfast with packed lunches from hotels. Fully guided and shuttle service.
-    Bags transported by vehicle between hotels.
+  description: "Takes in the best of Wild Coast scenery over 4 hiking days between
+    Wavecrest and Crawfords hotel Chintsa in the south.  Fully catered and
+    guided with shuttle service from East London.. "
   image:
     alt: Sunshine Hike
     image: /img/sunshine-hike1600x596-min.jpg
@@ -15,7 +13,7 @@ tour_id: Sunshine Hike
 destination: Wild Coast
 activity: Slackpacking
 duration: 5 days
-price: R 8500
+price: R 8800
 bannerblurb: 4 days hike, 5 nights from Wavecrest to Chintsa
 shortdescription: Takes in the best of Wild Coast scenery over 4 hiking days
   between Wavecrest and Crawfords hotel Chintsa in the south.  Dinner, bed and
