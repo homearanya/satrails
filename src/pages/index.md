@@ -1,12 +1,12 @@
 ---
 templateKey: home-page
 seo:
-  title: Slackpacking, Walks & Cycle Tours
-  description: >-
-    SA Adventure Trails is a marketing association between Paul Colvin 
-    of Wild Coast Walks and Julia Colvin of Spekboom Tours.
+  title: Multiday Hikes & Cycle Tours in Eastern Cape and Kwa-Zulu Natal regions
+    of South Africa
+  description: SA Adventure Trails is a marketing association and booking agency
+    for multiday hiking tours  offered  by Wild Coast Walks and Spekboom Tours.
   image:
-    alt: Wild Coast Slackpacking
+    alt: Wild Coast Hiking and Adventure Tours
     image: /img/wild-coast-1600x750.jpg
 slider:
   - heading1: WILD COAST
@@ -53,7 +53,7 @@ toursarea:
       heading2: ""
       tours:
         - tour: Meander Hike
-        - tour: Sunshine Hike
+        - tour: Coffee Bay Hike
         - tour: Mini Break
     - heading1: Drakensberg Slackpacking
       tours:
