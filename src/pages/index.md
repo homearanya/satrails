@@ -59,6 +59,7 @@ toursarea:
       tours:
         - tour: Giants Cup Trail
         - tour: Clarens Traverse
+        - tour: Amphitheatre Hike
     - heading1: Midlands Slackpacking
       tours:
         - tour: Karkloof Falls2Falls
