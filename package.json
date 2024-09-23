@@ -46,7 +46,6 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "gatsby-plugin-netlify": "^5.1.0",
-    "@netlify/plugin-gatsby": "^3.4.7"
+    "gatsby-plugin-netlify": "^5.1.0"
   }
 }
