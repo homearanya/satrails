@@ -63,6 +63,7 @@ toursarea:
     - heading1: Midlands Slackpacking
       tours:
         - tour: Karkloof Falls2Falls
+        - tour: "Nomansland Slackpack "
       heading2: ""
     - heading1: Cycle Tours
       tours:
