@@ -3,7 +3,7 @@ templateKey: tour-page
 seo:
   title: Nomansland Hiking Trail - Drakensberg - South Africa
   image:
-    image: /img/20171115_103840.jpg
+    image: /img/nomansland2.jpeg
     alt: |
       Nomansland Hike2
   description: "Nomansland Hike - Swartberg - Southern Drakensberg "
