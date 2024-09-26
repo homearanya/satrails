@@ -13,7 +13,7 @@ destination: Midlands
 activity: Slackpacking
 duration: "4 nights, 3 days "
 price: "7260"
-bannerblurb: Nomansland Hike
+bannerblurb: 3 day Slackpack in Southern Drakensberg
 shortdescription: "The Nomandsland Trail is a 4-day all-inclusive slack-pack
   through the remote grasslands at the foothill of the Southern Drakensberg. The
   ever-changing scenery offers unique daily experiences on the trail. Traverse
