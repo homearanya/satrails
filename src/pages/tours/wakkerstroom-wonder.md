@@ -29,14 +29,14 @@ photoGallery:
   photo:
     - image: /img/birding-wetlands.jpg
       alt: Birding Wetlands
+    - image: /img/boardwalk.jpg
+      alt: Birding Boardwalk
     - image: /img/birding_wetlands2.jpg
       alt: Birding 2
     - image: /img/sandstone_cave.jpg
       alt: Sandstone cave
     - image: /img/church.jpg
       alt: Church
-    - image: /img/boardwalk.jpg
-      alt: Birding Boardwalk
     - image: /img/ossewa-kop.jpg
       alt: Ossewa Kop
 ---
