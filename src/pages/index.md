@@ -64,6 +64,7 @@ toursarea:
       tours:
         - tour: Karkloof Falls2Falls
         - tour: "Nomansland Slackpack "
+        - tour: Wakkerstroom Wonder
       heading2: ""
     - heading1: Cycle Tours
       tours:
