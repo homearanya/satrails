@@ -9,7 +9,6 @@ section:
       - tour: Meander Hike
       - tour: Sunshine Hike
       - tour: Mini Break
-      - tour: Coffee Bay Hike
   - heading1: Midlands Slackpacking
     heading2: ""
     image:
@@ -18,6 +17,7 @@ section:
     tours:
       - tour: Karkloof Falls2Falls
       - tour: "Nomansland Slackpack "
+      - tour: Wakkerstroom Wonder
   - heading1: Drakensberg Slackpacking
     heading2: " "
     image:
