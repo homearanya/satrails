@@ -55,6 +55,7 @@ toursarea:
         - tour: Meander Hike
         - tour: Mini Break
         - tour: Sunshine Hike
+        - tour: Pondo Hopper Trail
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Giants Cup Trail
