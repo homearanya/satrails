@@ -9,6 +9,7 @@ section:
       - tour: Meander Hike
       - tour: Sunshine Hike
       - tour: Mini Break
+      - tour: Pondo Hopper Trail
   - heading1: Midlands Slackpacking
     heading2: ""
     image:
