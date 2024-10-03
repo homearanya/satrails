@@ -26,6 +26,14 @@ imagethumbnail:
 imagebanner:
   image: /img/pondohopper_manteku_huts.jpg
   alt: PondoHopper_ Manteku Huts
+photoGallery:
+  photo:
+    - image: /img/pondohopper-drewscamp.jpg
+      alt: POndoHopper_Drews Camp
+    - image: /img/pondohopper-3hikers.jpg
+      alt: PondoHopper_Hikers
+    - image: /img/pondohopper_waterfallbluff2.jpg
+      alt: PondoHopper_Waterfall Bluff
 ---
 Keen to hike the most rugged and pristine section of Wild Coast, but don't feel like carrying your own overnight bags  and preparing meals? Outside of the holidays, we can offer a fully supported and catered version of the 3 & 5 night Pondo-Explorer trail.
 
