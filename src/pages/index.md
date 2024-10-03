@@ -31,10 +31,10 @@ slider:
     subheading1: HIKE
     subheading2: THE HERITAGE TRAIL
 aboutarea:
-  blurb: SA Adventure Trails is a marketing association between Paul Colvin of
-    Wild Coast Walks and Julia Colvin of Spekboom Tours.  Together we offer the
-    best selection of fully supported hiking and cycling tours in KwaZulu Natal
-    and the Eastern Cape Wild Coast
+  blurb: "SA Adventure Trails is a marketing association between Sarah Drew of
+    Active Escapes, Paul Colvin of Wild Coast Walks and Julia Colvin of Spekboom
+    Tours.  Together we offer the best selection of fully supported hiking and
+    cycling tours in KwaZulu Natal and the Eastern Cape. "
   heading1: SA Adventure
   heading2: Trails
   image:
