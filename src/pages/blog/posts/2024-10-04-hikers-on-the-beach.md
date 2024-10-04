@@ -6,7 +6,7 @@ seo:
   image:
     image: /img/img-20231121-wa0063.jpg
     alt: "Walkers on the Beach "
-title: Hikers on the Beach
+title: Update on Recent Crime Activity
 date: 2024-10-02T22:00:00.000Z
 description: Crime Activity in the Eastern cape
 ---
