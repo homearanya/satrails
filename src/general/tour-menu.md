@@ -10,6 +10,7 @@ section:
       - tour: Sunshine Hike
       - tour: Mini Break
       - tour: Pondo Hopper Trail
+      - tour: Coffee Bay Hike
   - heading1: Midlands Slackpacking
     heading2: ""
     image:
