@@ -1,5 +1,4 @@
 ---
-blogswitch: false
+blogswitch: true
 calendarswitch: true
 ---
-
