@@ -56,6 +56,7 @@ toursarea:
         - tour: Mini Break
         - tour: Sunshine Hike
         - tour: Pondo Hopper Trail
+        - tour: Coffee Bay Hike
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Giants Cup Trail
