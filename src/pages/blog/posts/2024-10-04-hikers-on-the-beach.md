@@ -2,7 +2,7 @@
 templateKey: blog-post
 seo:
   title: Wild Coast Crime - Advisory Note
-  description: Update on Recent Crime Activity in the Eastern Cape
+  description: Safety Advisory for Hikers on the Wild Coast
   image:
     image: /img/img-20231121-wa0063.jpg
     alt: "Walkers on the Beach "
