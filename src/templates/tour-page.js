@@ -20,9 +20,11 @@ export default class TourPage extends Component {
       schemaImages.push(tourInfo.frontmatter.imagebanner.image.relativePath)
     }
     if (tourInfo.frontmatter.photoGallery) {
-      tourInfo.frontmatter.photoGallery.photo.map((photo) =>
-        schemaImages.push(photo.image.relativePath)
-      )
+      tourInfo.frontmatter.photoGallery.photo.map((photo) => {
+        if (photo.image) {
+          schemaImages.push(photo.image.relativePath)
+        }
+      })
     }
     //
     const { frontmatter: upcomingEventsInfo } =
