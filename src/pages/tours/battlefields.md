@@ -39,12 +39,12 @@ photoGallery:
     - alt: Isandlwana mountain
       caption: Isandlwana mountain
       image: /img/ct1_009.jpg
-    - alt: Spioenkop Monument
-      caption: Spioenkop Monument
-      image: /img/ct1_011.jpg
-    - alt: Thukela River Lodge
-      caption: Thukela River Lodge
-      image: /img/20181026_082533.jpg
+    # - alt: Spioenkop Monument
+    #   caption: Spioenkop Monument
+    #   image: /img/ct1_011.jpg
+    # - alt: Thukela River Lodge
+    #   caption: Thukela River Lodge
+    #   image: /img/20181026_082533.jpg
     - alt: Rhino at Nambithi Reserve
       caption: Rhino at Nambithi Reserve
       image: /img/ekuthuleni-lodge-game-drive-rhino-590x390.jpg
