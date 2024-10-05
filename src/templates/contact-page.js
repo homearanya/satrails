@@ -75,7 +75,7 @@ export default class ContactPage extends Component {
           title2="US"
           text={frontmatter.blurb}
           breadcrumb="Contact us"
-          imageBanner={frontmatter.imagebanner}
+          imageBanner={frontmatter.imageBanner}
         />
         <ContactFormTemplate location={this.props.location} />
       </Layout>
@@ -90,8 +90,18 @@ export const contactPageQuery = graphql`
         slug
       }
       frontmatter {
+        seo {
+          title
+          description
+          image {
+            image {
+              publicURL
+            }
+            alt
+          }
+        }
         blurb
-        imagebanner {
+        imageBanner {
           image {
             childImageSharp {
               gatsbyImageData(layout: FULL_WIDTH)

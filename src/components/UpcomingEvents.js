@@ -51,7 +51,7 @@ const UpcomingEvents = () => {
                       duration
                       price
                       shortdescription
-                      imagethumbnail {
+                      imageThumbnail {
                         image {
                           childImageSharp {
                             gatsbyImageData(

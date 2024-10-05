@@ -28,10 +28,10 @@ shortdescription: >-
 
   This hike is an affordable alternative for those who want less of a challenge and more of an opportunity to get away to nature, to destress,  and soak in the wonderful wild coast scenery. We can build in extra rest days or additional activities if requested (eg local history and nature tours, river cruises or paddling, bush camps with game drives etc)
 
-imagethumbnail:
+imageThumbnail:
   alt: Mini Break
   image: /img/wild-coast-slackpack450x300.jpg
-imagebanner:
+imageBanner:
   alt: Mini Break
   image: /img/wc_minibreak.jpg
 photoGallery:

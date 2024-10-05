@@ -23,10 +23,10 @@ shortdescription: This is a 3 day 3 night slackpacking hike through  the
   meals, luggage transfer, fully guided, conservancy fees a forest canopy tour.
   Bespoke tours can also be arranged for organised groups with special
   interests.
-imagethumbnail:
+imageThumbnail:
   alt: Karkloof Falls
   image: /img/karkloof-falls375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Karkloof Falls
   image: /img/karkloof-falls-banner1600x596-min.jpg
 photoGallery:

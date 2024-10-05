@@ -18,10 +18,10 @@ bannerblurb: Presleys Bay to Hole in Wall over 3 hike days
 shortdescription: |
   An easy 3 day hike around Coffee Bay taking in the best of Wild Coast scenery.
   Presleys Bay, Mdumbi and Hole in Wall
-imagethumbnail:
+imageThumbnail:
   alt: Coffee Bay Hike. Cliffs above Coffee Bay
   image: /img/coffee-bay-cliffs-thumb.jpg
-imagebanner:
+imageBanner:
   alt: "Coffee Bay Hike - rondavels "
   image: /img/coffeebay-hike-rondavels.jpg
 photoGallery:
@@ -35,9 +35,9 @@ photoGallery:
       image: /img/wild-coast-sunset-1.jpg
     - alt: Lwandile Estuary - Coffee Bay hike
       image: /img/coffeebay_lwandile.jpg
-    - alt: Surfers at Coffee Bay Beach
-      caption: Surfers at Coffee Bay beach
-      image: /img/wild-coast-surfers.jpg
+    # - alt: Surfers at Coffee Bay Beach
+    #   caption: Surfers at Coffee Bay beach
+    #   image: /img/wild-coast-surfers.jpg
     - alt: Coffee Bay cliffs
       caption: Coffee Bay Cliffs
       image: /img/coffee-bay-cliffs-thumb.jpg

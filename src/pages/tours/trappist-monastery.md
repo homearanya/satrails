@@ -22,10 +22,10 @@ shortdescription: >-
   and Underberg visiting Trappist Mission stations.  Guesthouse accommodation,
   Mission stay, all meals, fully guided with history tours, luggage transfers
   and backup support.
-imagethumbnail:
+imageThumbnail:
   alt: Trappist Monastery
   image: /img/trappist-monastery375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Trappist Monastery
   image: /img/ct3_005.jpg
 photoGallery:

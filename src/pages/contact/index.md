@@ -9,7 +9,7 @@ seo:
     alt: Contact Us
     image: /img/contact-banner1600x596-min.jpg
 blurb: "Contact us by email, phone or through our web form below"
-imagebanner:
+imageBanner:
   alt: Contact Us
   image: /img/contact-banner1600x596-min.jpg
 contactDetailsOrigin: contact

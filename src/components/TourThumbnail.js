@@ -1,28 +1,32 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image"
 import { textTruncate } from "../utils/helpers"
 import useMediaQuery from "../utils/hooks/useMediaQuery"
 
-const TourThumbnail = props => {
+const TourThumbnail = (props) => {
   const isLessThan480 = useMediaQuery("(max-width: 479px)")
   if (!props.tourDetails) {
     return null
   }
   const tourSlug = props.tourDetails.fields.slug
   const tourDetails = props.tourDetails.frontmatter
+
   return (
     <div className="col-md-4 col-sm-6 col-xs-12">
       <div className="single-adventure">
-        {tourDetails.imagethumbnail.image ? (
-          tourDetails.imagethumbnail.image.childImageSharp ? (
+        {tourDetails.imageThumbnail?.image ? (
+          tourDetails.imageThumbnail.image.childImageSharp ? (
             <GatsbyImage
-              image={tourDetails.imagethumbnail.image.childImageSharp.gatsbyImageData}
-              alt={tourDetails.imagethumbnail.alt} />
+              image={
+                tourDetails.imageThumbnail.image.childImageSharp.gatsbyImageData
+              }
+              alt={tourDetails.imageThumbnail.alt}
+            />
           ) : (
             <img
-              src={tourDetails.imagethumbnail.image}
-              alt={tourDetails.imagethumbnail.alt}
+              src={tourDetails.imageThumbnail.image}
+              alt={tourDetails.imageThumbnail.alt}
             />
           )
         ) : null}
@@ -55,7 +59,7 @@ const TourThumbnail = props => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default TourThumbnail

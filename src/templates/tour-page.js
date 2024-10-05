@@ -16,13 +16,13 @@ export default class TourPage extends Component {
     const { TourPageQuery: tourInfo } = this.props.data
     // build image array for schema.org
     let schemaImages = []
-    if (tourInfo.frontmatter.imagebanner.image) {
-      schemaImages.push(tourInfo.frontmatter.imagebanner.image.relativePath)
+    if (tourInfo.frontmatter.imageBanner.image) {
+      schemaImages.push(tourInfo.frontmatter.imageBanner.image.publicURL)
     }
     if (tourInfo.frontmatter.photoGallery) {
       tourInfo.frontmatter.photoGallery.photo.map((photo) => {
         if (photo.image) {
-          schemaImages.push(photo.image.relativePath)
+          schemaImages.push(photo.image.publicURL)
         }
       })
     }
@@ -51,13 +51,13 @@ export default class TourPage extends Component {
           title2=""
           text={tourInfo.frontmatter.bannerblurb}
           breadcrumb="tour"
-          imageBanner={tourInfo.frontmatter.imagebanner}
+          imageBanner={tourInfo.frontmatter.imageBanner}
         />
 
         <TourInformation tourInfo={tourInfo} contentComponent={HTMLContent} />
         {tourInfo.fields.tourevents && tourInfo.fields.tourevents.length > 0 ? (
           <TourUpcomingEvents
-            backgroundImage={tourInfo.frontmatter.backgroundimage}
+            backgroundImage={tourInfo.frontmatter.backgroundImage}
             upcomingEventsInfo={upcomingEventsInfo}
             tourEvents={tourInfo.fields.tourevents}
             tour={tourInfo.frontmatter.tour_id}
@@ -72,14 +72,26 @@ export const tourPageQuery = graphql`
     TourPageQuery: markdownRemark(id: { eq: $id }) {
       fields {
         slug
-        tourevents {
-          frontmatter {
-            date
-          }
-        }
+        # tourevents {
+        #   frontmatter {
+        #     date
+        #   }
+        # }
       }
       html
       frontmatter {
+        seo {
+          title
+          description
+          image {
+            image {
+              childImageSharp {
+                gatsbyImageData(layout: CONSTRAINED)
+              }
+            }
+            alt
+          }
+        }
         tour_id
         destination
         activity
@@ -87,9 +99,9 @@ export const tourPageQuery = graphql`
         price
         bannerblurb
         shortdescription
-        imagebanner {
+        imageBanner {
           image {
-            relativePath
+            publicURL
             childImageSharp {
               gatsbyImageData(layout: FULL_WIDTH)
             }
@@ -101,7 +113,7 @@ export const tourPageQuery = graphql`
             alt
             caption
             image {
-              relativePath
+              publicURL
               childImageSharp {
                 gatsbyImageData(width: 800, layout: CONSTRAINED)
               }

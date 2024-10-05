@@ -29,7 +29,7 @@ export default ({ data }) => {
         title2="US"
         text={frontmatter.banner.blurb}
         breadcrumb="About us"
-        imageBanner={frontmatter.banner.imagebanner}
+        imageBanner={frontmatter.banner.imageBanner}
       />
       {/* <AboutAdventures /> */}
       <AssociatesArea
@@ -55,9 +55,19 @@ export const aboutPageQuery = graphql`
         slug
       }
       frontmatter {
+        seo {
+          title
+          description
+          image {
+            image {
+              publicURL
+            }
+            alt
+          }
+        }
         banner {
           blurb
-          imagebanner {
+          imageBanner {
             image {
               childImageSharp {
                 gatsbyImageData(layout: FULL_WIDTH)

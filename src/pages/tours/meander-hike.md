@@ -21,10 +21,10 @@ shortdescription: Easy walking along wide sandy beaches running south from Kob
   Inn and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
   breakfast with packed lunches at hotels, fully guided and shuttle
   service.  Bags transported by porters.
-imagethumbnail:
+imageThumbnail:
   alt: Meander Hike
   image: /img/meander-hike-gallery_4.jpg
-imagebanner:
+imageBanner:
   alt: Meander Hikers Starting Out
   image: /img/wild-coast-meander1600x596-min.jpg
 photoGallery:

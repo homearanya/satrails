@@ -21,10 +21,10 @@ shortdescription: A 3 day, 3 night slackpacking through the beautiful mistbelt
   forest and pristine grasslands of protected conservancies  KZN
   Midlands.  Fully guided and includes all meals, farmstyle accommodation and
   luggage transfers.
-imagethumbnail:
+imageThumbnail:
   alt: Dargle Samango Trail
   image: /img/sm2_008.jpg
-imagebanner:
+imageBanner:
   alt: Midlands Grasslands
   image: /img/sm2_banner.jpg
 photoGallery:

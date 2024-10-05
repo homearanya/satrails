@@ -1,20 +1,20 @@
-import React from "react";
-import { Link } from "gatsby";
-import { GatsbyImage } from "gatsby-plugin-image";
-import dateformat from "dateformat";
+import React from "react"
+import { Link } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
+import dateformat from "dateformat"
 
-import BookButton from "../components/BookButton";
+import BookButton from "../components/BookButton"
 
 const Event = ({ eventInfo }) => {
-  const { date: eventDate, tour } = eventInfo;
-  const { fields, frontmatter: tourInfo } = tour;
-  let imageFluid = "";
-  let imageAlt = "";
-  if (tourInfo.imagethumbnail.image) {
-    imageFluid = tourInfo.imagethumbnail.image.childImageSharp
-      ? tourInfo.imagethumbnail.image.childImageSharp.gatsbyImageData
-      : tourInfo.imagethumbnail.image;
-    imageAlt = tourInfo.imagethumbnail.alt;
+  const { date: eventDate, tour } = eventInfo
+  const { fields, frontmatter: tourInfo } = tour
+  let imageFluid = ""
+  let imageAlt = ""
+  if (tourInfo.imageThumbnail.image) {
+    imageFluid = tourInfo.imageThumbnail.image.childImageSharp
+      ? tourInfo.imageThumbnail.image.childImageSharp.gatsbyImageData
+      : tourInfo.imageThumbnail.image
+    imageAlt = tourInfo.imageThumbnail.alt
   }
   return (
     <div className="col-md-12">
@@ -52,9 +52,9 @@ const Event = ({ eventInfo }) => {
               </div>
               <div className="adventure-list-text">
                 <h1>
-                  <Link to={fields.slug}>{`${tourInfo.tour_id} / ${
-                    tourInfo.duration
-                  } Trip`}</Link>
+                  <Link
+                    to={fields.slug}
+                  >{`${tourInfo.tour_id} / ${tourInfo.duration} Trip`}</Link>
                 </h1>
                 <h2>
                   <span className="persons">From </span>
@@ -85,7 +85,7 @@ const Event = ({ eventInfo }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Event;
+export default Event

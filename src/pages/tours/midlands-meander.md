@@ -27,10 +27,10 @@ shortdescription: "Explore the quiet backroads  of the KwaZulu Natal Midlands
   ability and interests.  Daily distances from 30km to 60km from point to
   point.  Combination of gravel district roads, forest and farm roads and some
   single track if requested. "
-imagethumbnail:
+imageThumbnail:
   alt: "Cycle Touring in the KZN Midlands. "
   image: /img/ct2_02.jpg
-imagebanner:
+imageBanner:
   alt: Kamberg Cycle  Tours
   image: /img/kambergcycle_banner.jpg
 photoGallery:

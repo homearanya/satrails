@@ -20,10 +20,10 @@ shortdescription: >
   3 & 5 day trails along this pristine stretch of Northern Wild Coast.
   Overnighting in Wilderness tented camps.  Waterfall Bluff, Cathedral Rock and
   Drew’s Camp are some of the highlights on this true wilderness trail.
-imagethumbnail:
+imageThumbnail:
   image: /img/pondoexplore-cathedralrock.jpg
   alt: Pondo Hopper_ Cathedral Peak
-imagebanner:
+imageBanner:
   image: /img/pondohopper_manteku_huts.jpg
   alt: PondoHopper_ Manteku Huts
 photoGallery:
@@ -35,27 +35,28 @@ photoGallery:
     - image: /img/pondohopper_waterfallbluff2.jpg
       alt: PondoHopper_Waterfall Bluff
 ---
-Keen to hike the most rugged and pristine section of Wild Coast, but don't feel like carrying your own overnight bags  and preparing meals? Outside of the holidays, we can offer a fully supported and catered version of the 3 & 5 night Pondo-Explorer trail.
+
+Keen to hike the most rugged and pristine section of Wild Coast, but don't feel like carrying your own overnight bags and preparing meals? Outside of the holidays, we can offer a fully supported and catered version of the 3 & 5 night Pondo-Explorer trail.
 
 You will overnight at African style tented camps, and your main bag will be transferred from camp to camp, so you need only hike with a light daypack. Dinner, breakfast and a packed lunch for each trail day, will be provided, and your third night is spent at Mbotyi River Lodge.
 
-***Daily Distances***\
+**_Daily Distances_**\
 
 Day 1: 16km Day 2: 19km
 Day 3: 10km Day 4: 10km
 Day 5: 13km
 
-***Trail Terrain***\
+**_Trail Terrain_**\
 
 Coastal Trail - traversing grasslands with deep forest ravines and gorges, rocky headlands, sandy beaches and passing through friendly Pondo villages.\
 \
-***Accommodation***\
+**_Accommodation_**\
 
 Tented Camps - twin bedded safari tents with ensuite ablutions & hot shower (bring own sleeping bags). \
 Central kitchen & dining boma.
 1 Night at Mbotyi River Lodge
 
-***Group Size***\
+**_Group Size_**\
 
 Preferred minimum of 4 - 6 persons
 Maximum of 22 persons/group

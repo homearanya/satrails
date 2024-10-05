@@ -37,6 +37,16 @@ export const homePageQuery = graphql`
         slug
       }
       frontmatter {
+        seo {
+          title
+          description
+          image {
+            image {
+              publicURL
+            }
+            alt
+          }
+        }
         slider {
           heading1
           heading2
@@ -84,7 +94,7 @@ export const homePageQuery = graphql`
                   duration
                   price
                   shortdescription
-                  imagethumbnail {
+                  imageThumbnail {
                     image {
                       childImageSharp {
                         gatsbyImageData(

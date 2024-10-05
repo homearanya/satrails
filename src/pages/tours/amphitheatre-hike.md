@@ -22,10 +22,10 @@ shortdescription: >-
   National Park over 3 days and nights. A fully guided slackpacking hike on an
   established route suited for walkers of moderate fitness.  One of the iconic
   trails in South Africa
-imagethumbnail:
+imageThumbnail:
   alt: Tugela Falls
   image: /img/amphitheatre375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Tugela Falls
   image: /img/amphitheatre1600x596-min.jpg
 photoGallery:

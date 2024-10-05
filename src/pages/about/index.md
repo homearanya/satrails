@@ -10,7 +10,7 @@ seo:
     image: /img/about-us1600x596-min.jpg
 banner:
   blurb: A brief description and background to 'who we are' and 'how we operate' ..
-  imagebanner:
+  imageBanner:
     alt: About Us
     image: /img/about-us1600x596-min.jpg
 aboutarea:

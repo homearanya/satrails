@@ -1,15 +1,15 @@
 ---
-templateKey: tour-calendar-page
+templateKey: blog-page
 seo:
-  title: Tour Calendar · Slackpacking & Cycle Tours
+  title: Trails Blog - Hiking Guides, Outdoor Tips & Adventure Gear · Slackpacking & Cycle Tours
   description: >-
-    Find your tour. If the dates don't suit you we can still 
-    organise it for you
+    Explore the best hiking and outdoor adventures in South Africa with expert tips, trail guides, and gear recommendations on the Trails blog. Your gateway to nature starts here!
   image:
     alt: Wild Coast Slackpacking
     image: /img/blog-banner1600x596-min.jpg
-blurb: Upcoming Events and Happenings
-imagebanner:
+blurb: >-
+  Explore the best hiking and outdoor adventures in South Africa with expert tips, trail guides, and gear recommendations on the Trails blog. Your gateway to nature starts here!
+imageBanner:
   image: /img/blog-banner1600x596-min.jpg
   alt: Hiking on the Wild Coast
 ---

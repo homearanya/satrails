@@ -69,23 +69,31 @@ const SEO = ({ pageData, postImage, pageType }) => (
         post.name = pageMeta.name
         post.alternateName = seo.defaultTitle
         post.description = pageMeta.description
-        post.image = postImage ? `${seo.canonicalUrl}${postImage}` : seo.image
+        post.image = postImage
+          ? `${seo.canonicalUrl}${postImage}`
+          : `${seo.canonicalUrl}${seo.image}`
         post.dataPublished = pageMeta.datePublished
         post.url = `${seo.canonicalUrl}${pageMeta.slug}`
         post.author = seo.author
       }
 
       // Meta image
-      let metaImage = pageMeta.image || seo.image
+      let metaImage = pageMeta.image.image.publicURL || seo.image
       if (pageType === "post") {
-        metaImage = postImage
-          ? `${seo.canonicalUrl}${postImage}`
-          : pageMeta.image || seo.image
+        // metaImage = postImage
+        //   ? `${seo.canonicalUrl}${postImage}`
+        //   : pageMeta.image || seo.image
+        metaImage = `${seo.canonicalUrl}${
+          postImage || pageMeta.image.image.publicURL || seo.image
+        }`
       } else if (pageType === "tour") {
-        metaImage =
-          pageMeta.tourImages.length > 0
-            ? `${seo.canonicalUrl}/img${pageMeta.tourImages[0]}`
-            : pageMeta.image || seo.image
+        // metaImage =
+        //   pageMeta.tourImages.length > 0
+        //     ? `${seo.canonicalUrl}/img${pageMeta.tourImages[0]}`
+        //     : pageMeta.image || seo.image
+        metaImage = `${seo.canonicalUrl}${
+          pageMeta.tourImages[0] || pageMeta.image.image.publicURL || seo.image
+        }`
       }
       return (
         <React.Fragment>

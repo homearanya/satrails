@@ -39,12 +39,13 @@ const Wrapper = styled.div`
 `
 
 export default ({ data }) => {
-  const { backgroundimage } = data.NotFoundQuery.frontmatter
+  const { backgroundImage } = data.NotFoundQuery.frontmatter
   const pageMeta = {
     title: `Page Not Found . Slackpacking, Walks & Cycle Tours`,
     description: `Page not found. Go back to home page`,
     slug: "/404/",
     datePublished: false,
+    image: backgroundImage,
   }
   return (
     <Layout>
@@ -55,10 +56,10 @@ export default ({ data }) => {
       <Wrapper
         className="error-area"
         backgroundImage={
-          backgroundimage.image
-            ? backgroundimage.image.childImageSharp
-              ? getSrc(backgroundimage.image.childImageSharp.gatsbyImageData)
-              : backgroundimage.image
+          backgroundImage.image
+            ? backgroundImage.image.childImageSharp
+              ? getSrc(backgroundImage.image.childImageSharp.gatsbyImageData)
+              : backgroundImage.image
             : ""
         }
       >
@@ -89,8 +90,9 @@ export const notFoundPageQuery = graphql`
   query NotFoundPage {
     NotFoundQuery: markdownRemark(fields: { slug: { eq: "/notfound/" } }) {
       frontmatter {
-        backgroundimage {
+        backgroundImage {
           image {
+            publicURL
             childImageSharp {
               gatsbyImageData(width: 785, layout: CONSTRAINED)
             }

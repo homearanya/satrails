@@ -1,19 +1,19 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react"
+import PropTypes from "prop-types"
 
-import Banner from "../../components/Banner";
-import TourInformation from "../../components/TourInformation";
+import Banner from "../../components/Banner"
+import TourInformation from "../../components/TourInformation"
 
 const DummyPhotoGallery = ({ handleLoadedImages, photoGallery }) => (
   <div
     style={{
-      display: "none"
+      display: "none",
     }}
   >
-    {photoGallery.photo.map(photo =>
+    {photoGallery.photo.map((photo) =>
       photo.image ? (
         <img
-          onLoad={event =>
+          onLoad={(event) =>
             handleLoadedImages(
               photo.image,
               event.target.width,
@@ -26,30 +26,30 @@ const DummyPhotoGallery = ({ handleLoadedImages, photoGallery }) => (
       ) : null
     )}
   </div>
-);
+)
 
 export default class TourPagePreview extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      photoGalleryObject: {}
-    };
+      photoGalleryObject: {},
+    }
   }
 
   handleLoadedImages = (src, width, height) => {
     if (!this.state.photoGalleryObject[src]) {
       if (height > 0 && width > 0) {
-        const imageAspect = Math.round((width / height) * 1000) / 1000;
+        const imageAspect = Math.round((width / height) * 1000) / 1000
         this.setState(
-          prevState => (prevState.photoGalleryObject[src] = imageAspect)
-        );
+          (prevState) => (prevState.photoGalleryObject[src] = imageAspect)
+        )
       }
     }
-  };
+  }
 
   render() {
-    const { entry, widgetFor } = this.props;
-    const data = entry.getIn(["data"]).toJS();
+    const { entry, widgetFor } = this.props
+    const data = entry.getIn(["data"]).toJS()
     if (data) {
       return (
         <React.Fragment>
@@ -58,12 +58,12 @@ export default class TourPagePreview extends Component {
             title2=""
             text={data.bannerblurb}
             breadcrumb="tour"
-            imageBanner={data.imagebanner}
+            imageBanner={data.imageBanner}
           />
           <TourInformation
             tourInfo={{
               html: widgetFor("body"),
-              frontmatter: data
+              frontmatter: data,
             }}
             photoGalleryObject={this.state.photoGalleryObject}
           />
@@ -72,16 +72,16 @@ export default class TourPagePreview extends Component {
             photoGallery={data.photoGallery}
           />
         </React.Fragment>
-      );
+      )
     } else {
-      return <div>Loading...</div>;
+      return <div>Loading...</div>
     }
   }
 }
 
 TourPagePreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func
+    getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func
-};
+  widgetFor: PropTypes.func,
+}

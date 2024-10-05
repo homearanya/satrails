@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
-import Banner from "../../components/Banner";
-import DestinationsArea from "../../components/DestinationsArea";
-import AssociatesArea from "../../components/AssociatesArea";
+import Banner from "../../components/Banner"
+import DestinationsArea from "../../components/DestinationsArea"
+import AssociatesArea from "../../components/AssociatesArea"
 
-const AboutPagePreview = props => {
-  const { entry } = props;
-  const data = entry.getIn(["data"]).toJS();
+const AboutPagePreview = (props) => {
+  const { entry } = props
+  const data = entry.getIn(["data"]).toJS()
   if (data) {
     return (
       <React.Fragment>
@@ -17,7 +17,7 @@ const AboutPagePreview = props => {
           title2="US"
           text={data.banner.blurb}
           breadcrumb="About us"
-          imageBanner={data.banner.imagebanner}
+          imageBanner={data.banner.imageBanner}
         />
         {/* <AboutAdventures /> */}
         <AssociatesArea
@@ -33,16 +33,16 @@ const AboutPagePreview = props => {
           destinations={data.destinationsarea.destination}
         />
       </React.Fragment>
-    );
+    )
   } else {
-    return <div>Loading...</div>;
+    return <div>Loading...</div>
   }
-};
+}
 AboutPagePreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func
+    getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func
-};
+  widgetFor: PropTypes.func,
+}
 
-export default AboutPagePreview;
+export default AboutPagePreview

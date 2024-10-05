@@ -18,10 +18,10 @@ bannerblurb: Mehloding community trail
 shortdescription: >-
   Community run trail of 4 days and 4 nights through the mountains of East
   Griqualand
-imagethumbnail:
+imageThumbnail:
   alt: Mehloding
   image: /img/mehloding375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Mehloding
   image: /img/mehloding-banner1600x596-min.jpg
 photoGallery:

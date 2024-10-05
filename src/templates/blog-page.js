@@ -6,14 +6,14 @@ import Banner from "../components/Banner"
 import SEO from "../components/SEO/SEO"
 
 import "../assets/css/tourCalendar.css"
-import UpcomingEvents from "../components/BlogList"
+import BlogList from "../components/BlogList"
 
 export default ({ data }) => {
   const { fields, frontmatter } = data.markdownRemark
 
   const pageMeta = {
-    title: `Tour Calendar · Slackpacking & Cycle Tours`,
-    description: `Find your tour. If the dates don't suit you we can still organise it for you`,
+    title: `Trails Blog - Hiking Guides, Outdoor Tips & Adventure Gear · Slackpacking & Cycle Tours`,
+    description: `Explore the best hiking and outdoor adventures in South Africa with expert tips, trail guides, and gear recommendations on the Trails blog. Your gateway to nature starts here!`,
     slug: fields.slug,
     datePublished: false,
   }
@@ -25,13 +25,13 @@ export default ({ data }) => {
       <SEO pageData={pageMeta} />
       <Banner
         extraClass="grid"
-        title1="Tour"
-        title2="Calendar"
+        title1=""
+        title2="Trails Blog - Hiking Guides, Outdoor Tips & Adventure Gear"
         text={frontmatter.blurb}
-        breadcrumb="Calendar"
+        breadcrumb="Blog"
         imageBanner={frontmatter.imageBanner}
       />
-      <UpcomingEvents />
+      <BlogList />
     </Layout>
   )
 }

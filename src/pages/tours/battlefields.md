@@ -25,10 +25,10 @@ shortdescription: A unique 8 night (7 riding days) tour of the KZN Battlefields
   Nambiti Game reserve with 2 game drives.  Tour is fully guided with historical
   presentations, catered meals, support vehicle and luggage transfers as well as
   all park entry fees
-imagethumbnail:
+imageThumbnail:
   alt: Isandlwana monument
   image: /img/battlefields375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Battlefields - Isandlwana
   image: /img/battlefields-banner1600x596-min.jpg
 photoGallery:

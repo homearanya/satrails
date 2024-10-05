@@ -2,7 +2,8 @@
 templateKey: tour-page
 seo:
   title: Sunshine Hike · Wild Coast · Slackpacking  · Tours
-  description: "Takes in the best of Wild Coast scenery over 4 hiking days between
+  description:
+    "Takes in the best of Wild Coast scenery over 4 hiking days between
     Wavecrest and Crawfords hotel Chintsa in the south.  Fully catered and
     guided with shuttle service from East London.. "
   image:
@@ -19,10 +20,10 @@ shortdescription: Takes in the best of Wild Coast scenery over 4 hiking days
   between Wavecrest and Chintsa in the south.  Dinner, bed and breakfast with
   packed lunches from hotels. Fully guided with shuttle service from East
   London. Bags transported by vehicle between hotels.
-imagethumbnail:
+imageThumbnail:
   alt: Sunshine Hike
   image: /img/sunshine-hike375x375-min.jpg
-imagebanner:
+imageBanner:
   alt: Sunshine Hike
   image: /img/sunshine-hike1600x596-min.jpg
 photoGallery:
