@@ -57,6 +57,7 @@ toursarea:
         - tour: Sunshine Hike
         - tour: Pondo Hopper Trail
         - tour: Coffee Bay Hike
+        - tour: Kosi Bay Slackpacking Trail
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Giants Cup Trail
