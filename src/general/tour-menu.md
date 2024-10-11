@@ -11,6 +11,7 @@ section:
       - tour: Mini Break
       - tour: Pondo Hopper Trail
       - tour: Coffee Bay Hike
+      - tour: Kosi Bay Slackpacking Trail
   - heading1: Midlands Slackpacking
     heading2: ""
     image:
