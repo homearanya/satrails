@@ -32,6 +32,20 @@ imageThumbnail:
 imageBanner:
   image: /img/kosi_swamps.jpg
   alt: Swamp_rivercrossing
+photoGallery:
+  photo:
+    - image: /img/kosi_beachhikers.jpg
+      alt: Kosi Beach Hikers
+    - image: /img/kosi_turtletracks.jpg
+      alt: Kosi Turtle Tracks
+    - image: /img/tt-thonga-outer-deck.jpg
+      alt: Thonga Beach Deck
+    - image: /img/ae_kosi-lakecruise.jpg
+      alt: Kosi Lake Cruise
+    - image: /img/kosi_forestguide.jpg
+      alt: Kosi_Forest Guiding
+    - image: /img/ae_kosi_aerial.jpg
+      alt: Kosi_Aerial Lake View
 ---
 In the north-eastern reaches of KwaZulu-Natal adjoining the Mozambican border is a unique ecosystem comprising four interconnected lakes which filter into the sea via a sandy estuary. From fern and swamp forests, into mangroves, then grasslands, and up the coastal dune forests; one gets a feeling for the diversity of this special conservancy – the northernmost tip of iSimangaliso’s Wetland Park.
 
