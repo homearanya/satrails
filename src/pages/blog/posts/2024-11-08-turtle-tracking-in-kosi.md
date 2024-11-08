@@ -39,3 +39,5 @@ Further along the Bhanga Nek beach we encounter two feisty loggerhead turtles, t
 Back where we started, we put on our flipflops and retrace our steps into the lush Bhanga Nek forest alive with night sounds and clamber onto the back of a bakkie. Holding tight and looking up at the canopy of trees we head back to Amangwane Camp, our base for the trip. At the camp we commune around the crackling fire, drinks in hand, smiling and chatting about the immense gift of having witnessed part of a turtle’s lifecycle. It starts to rain and, untangling ourselves from conversations, we make our way to our rooms at our Kosi bay accommodation, which are spartan, comfortable and en suite.
 
 ![Kosi Camp](/img/kosi_camp.jpg)
+
+[Spekboom Tours](www.spekboomtours.co.za) and [Active Escapes](www.active-escapes.co.za) offer bespoke hiking in the Kosi Bay lakes as well annual turtle tracking slackpacking tours.  Book now for the short turtle nesting season of December to March. Only a few places left for 2025 !
