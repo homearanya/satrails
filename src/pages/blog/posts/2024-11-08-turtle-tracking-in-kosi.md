@@ -7,7 +7,7 @@ seo:
     image: /img/kosi_aquarium.jpg
     alt: "Estuary Mouth at Kosi Bay  Zululand "
 imageBanner:
-  image: /img/kosi_beachhikers.jpg
+  image: /img/kosi_aquarium.jpg
   alt: Turtle Tracking on the  Kosi Bay Coast
 imageThumbnail:
   image: /img/kosi_beachhikers.jpg
