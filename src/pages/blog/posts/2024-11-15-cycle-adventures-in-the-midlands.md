@@ -45,7 +45,7 @@ Another dynamic young couple here, Kaitlynn and Andre Kauerauf, have turned a co
 
 The farm tour included explanations of the use of regenerative biodynamic principles (no pesticides, fertilisers or growth enhancers) so that farm animals grow slowly, naturally and seasonally.
 
-\[﻿Insert Image of Bramleigh ]
+![Bramleigh Manor](/img/bramleigh.jpg "Bramleight manor - KZN Cycle Tour")
 
 In the morning the brave cyclists faced the long 35km ride ride through the Kamberg Reserve  to Highmoor and the Kamberg caves. After a well earned rest break we walked another 4 km to the Game Pass Shelter cave, so named because it lies along the former migratory route of antelope.
 
