@@ -27,53 +27,54 @@ export const UpcomingEventsTemplate = ({ data, upcomingEvents }) => {
 }
 
 const UpcomingEvents = () => {
-  return (
-    <StaticQuery
-      query={graphql`
-        query UpcomingEventsQuery {
-          allMarkdownRemark(
-            sort: { frontmatter: { date: ASC } }
-            filter: { frontmatter: { templateKey: { eq: "upcoming-events" } } }
-          ) {
-            edges {
-              node {
-                id
-                frontmatter {
-                  date
-                  tour {
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      tour_id
-                      destination
-                      activity
-                      duration
-                      price
-                      shortdescription
-                      imageThumbnail {
-                        image {
-                          childImageSharp {
-                            gatsbyImageData(
-                              width: 370
-                              height: 294
-                              layout: CONSTRAINED
-                            )
-                          }
-                        }
-                        alt
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      `}
-      render={(data) => <UpcomingEventsTemplate data={data} />}
-    />
-  )
+  return null
+  // return (
+  //   <StaticQuery
+  //     query={graphql`
+  //       query UpcomingEventsQuery {
+  //         allMarkdownRemark(
+  //           sort: { frontmatter: { date: ASC } }
+  //           filter: { frontmatter: { templateKey: { eq: "upcoming-events" } } }
+  //         ) {
+  //           edges {
+  //             node {
+  //               id
+  //               frontmatter {
+  //                 date
+  //                 tour {
+  //                   fields {
+  //                     slug
+  //                   }
+  //                   frontmatter {
+  //                     tour_id
+  //                     destination
+  //                     activity
+  //                     duration
+  //                     price
+  //                     shortdescription
+  //                     imageThumbnail {
+  //                       image {
+  //                         childImageSharp {
+  //                           gatsbyImageData(
+  //                             width: 370
+  //                             height: 294
+  //                             layout: CONSTRAINED
+  //                           )
+  //                         }
+  //                       }
+  //                       alt
+  //                     }
+  //                   }
+  //                 }
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     `}
+  //     render={(data) => <UpcomingEventsTemplate data={data} />}
+  //   />
+  // )
 }
 
 export default UpcomingEvents
