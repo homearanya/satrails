@@ -31,15 +31,15 @@ No opportunity though to flake and retire early as wine tasting was on the menu 
 ![Wine Tasting at Rosetta](/img/wine_tasting.jpg "Wine tasting - KZN Cycle Tour")
 
 The brisk winter air next morning chilled and excited the riders for their ride through rolling farmland.
-First stretch was through the[ Usher Crane Conservancy](https://kzncranefoundation.org.za/about-kzn-cf/) dedicated to rehabilitating blue and wattled cranes, which are some of South Africa’s most critically-endangered birds.
+First stretch was through the**[ Usher Crane Conservancy](https://kzncranefoundation.org.za/about-kzn-cf/)** dedicated to rehabilitating blue and wattled cranes, which are some of South Africa’s most critically-endangered birds.
 
 There followed a gentle downhill ride through cool, forested backroads to arrive for a welcome 'regmaker' at the [Balgowan Brewery](https://www.balgowanbrewery.co.za/). This small brewery was started by a young, enthusiastic couple who are typical of many entrepreneurs in the Midlands implementing their dream projects.
 
 After some more earnest testing and tasting, it was time to re-alight velocipedes and point them in the direction of lunch. This was at the historic Caversham Mill, overlooking the Lions River.
 
-The overnight stop was in the beautifully-restored historical Lemonwood cottages in the Dargle Valley. That night, the group was entertained by a typically South African celebrity performer[,  Lara Kirsten,](https://laraafrika.blogspot.com/p/about.html) who entertained us with exquisite classical piano music combined with her own passionate English and Afrikaans poetry.
+The overnight stop was in the beautifully-restored historical **[Lemonwood cottages](https://www.knowyourstay.co.za/self-catering-accommodation-lemonwood-cottages-dargle-midlands-meander-kwazulu-natal-south-africa/)** in the Dargle Valley. That night, the group was entertained by a typically South African celebrity performer[,  **Lara Kirsten**,](https://laraafrika.blogspot.com/p/about.html) who entertained us with exquisite classical piano music combined with her own passionate English and Afrikaans poetry.
 
-The third day started with a 6km walk in the Lemonwood mist forest, then a ride to [Bramleigh Manor](https://www.bramleigh.co.za/) farm near Fort Nottingham through a patchwork of picturesque farms and green dairy country. 
+The third day started with a 6km walk in the Lemonwood mist forest, then a ride to **[Bramleigh Manor](https://www.bramleigh.co.za/)** farm near Fort Nottingham through a patchwork of picturesque farms and green dairy country. 
 
 Another dynamic young couple here, Kaitlynn and Andre Kauerauf, have turned a conventional bed-and-breakfast establishment into an exemplar of an ethical and nature-attuned farm-accommodation establishment.
 
@@ -51,6 +51,8 @@ In the morning the brave cyclists faced the long 35km ride ride through the Kamb
 
 ![Kamberg Break](/img/kamberg_break.jpg "Kamberg Rest Break - KZN Cycle Tour")
 
-The final night was at [Glengarry ](https://glengarry.co.za/)a traditional Midlands family-run resort with trout fishing lakes and more recently added hiking and cycle tracks in the foothills of the berg.
+The final night was at [**Glengarry** ](https://glengarry.co.za/)a traditional Midlands family-run resort with trout fishing lakes and more recently added hiking and cycle tracks in the foothills of the berg.
 
 Next morning, participants tired from the cycling of the past few days,  pointed their steeds towards Rosetta to collect their cars.  For those with less time restrictions a stock up of local sourced products and lunch at the Rosetta Hotel concluded a memorable few days in the magnificent Natal Midlands.
+
+*SA Trails and Spekboom Tours are both based in Howick, are avid riders,  with an intimate knowledge of cycle trails and tours in this area.  Anything from a day ride on the famous Karkloof Club trails to a 3 day cycle tour of the Midlands.  We would love to customise a tour for you - Ebiking or MTB.  Complete our Contact Form with your details and requirements and we will put something together for you and your cycle buddies.*
