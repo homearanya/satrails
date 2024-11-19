@@ -16,8 +16,6 @@ title: Cycle Adventures in the Midlands
 date: 2024-11-15T13:49:23.141Z
 description: "Cycle Touring in the KZN Midlands "
 ---
-CYCLE ADVENTURES IN THE KZN MIDLANDS
-
 KwaZulu-Natal’s Midlands Meander is surely one of South Africa’s most successful and diverse tourist routes. 
 A pioneer of the concept of local explorations that has been copied in so many other areas of rural South Africa.
 
