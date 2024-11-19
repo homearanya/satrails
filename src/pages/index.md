@@ -3,9 +3,8 @@ templateKey: home-page
 seo:
   title: Multiday Hikes & Cycle Tours in Eastern Cape and Kwa-Zulu Natal regions
     of South Africa
-  description: SA  Adventure Trails is a marketing and booking agency offering the
-    best selection of fully supported, multi-day "slackpacking" hikes   and
-    cycle tours in KwaZulu Natal and the Eastern Cape.
+  description: SA  Adventure Trails offers the best selection of  multi-day
+    "slackpacking"  tours in KwaZulu Natal and the Eastern Cape.
   image:
     alt: Wild Coast Hiking and Adventure Tours
     image: /img/wild-coast-1600x750.jpg
