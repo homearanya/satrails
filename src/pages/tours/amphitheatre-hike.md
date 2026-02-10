@@ -1,7 +1,7 @@
 ---
 templateKey: tour-page
 seo:
-  title: Amphitheatre Hike · Drakensberg · Slackpacking  · To
+  title: Amphitheatre Hike · Drakensberg · Slackpacking  · Tours
   description: Ascent of the 3000m Amphitheatre peak on the Drakensberg escarpment
     from Royal National Park over 3 days and nights. A fully guided slackpacking
     hike on an established route suited for walkers of moderate fitness.  One of
