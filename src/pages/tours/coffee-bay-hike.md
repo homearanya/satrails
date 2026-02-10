@@ -14,9 +14,9 @@ activity: Slackpacking
 duration: 4 nights, 3 days
 price: "7000"
 bannerblurb: Presleys Bay to Hole in Wall over 3 hike days
-shortdescription: |
-  An easy 3 day hike around Coffee Bay taking in the best of Wild Coast scenery.
-  Presleys Bay, Mdumbi and Hole in Wall
+shortdescription: >
+  Hike between Coffee Bay, Hole in Wall and Mbashe Mouth  taking in the best of
+  Wild Coast scenery.
 imageThumbnail:
   alt: Coffee Bay Hike. Cliffs above Coffee Bay
   image: /img/coffee-bay-cliffs-thumb.jpg
