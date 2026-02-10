@@ -2,11 +2,10 @@
 templateKey: tour-page
 seo:
   title: Coffee Bay Hike · Wild Coast · Slackpacking  · Tours
-  description: >-
-    An easy 3 day hike around Coffee Bay taking in the best of Wild Coast scenery.
-    Presleys Bay, Mdumbi and Hole in Wall
+  description: "Hike between Coffee Bay and Mbashe Mouth taking in the best of
+    Wild Coast Scenery. "
   image:
-    alt: "Coffee Bay Hike - rondavels"
+    alt: Coffee Bay Hike - rondavels
     image: /img/coffeebay-hike-rondavels.jpg
 featured: false
 tour_id: Coffee Bay Hike
@@ -35,9 +34,6 @@ photoGallery:
       image: /img/wild-coast-sunset-1.jpg
     - alt: Lwandile Estuary - Coffee Bay hike
       image: /img/coffeebay_lwandile.jpg
-    # - alt: Surfers at Coffee Bay Beach
-    #   caption: Surfers at Coffee Bay beach
-    #   image: /img/wild-coast-surfers.jpg
     - alt: Coffee Bay cliffs
       caption: Coffee Bay Cliffs
       image: /img/coffee-bay-cliffs-thumb.jpg
