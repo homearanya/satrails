@@ -1,3 +1,7 @@
+[build]
+command = "yarn build"
+publish = "public/"
+
 [build.environment]
 GATSBY_CPU_COUNT = "2"
 NETLIFY_YARN_WORKSPACES = "false"
