@@ -12,6 +12,7 @@
     "braces": "^3.0.2",
     "dateformat": "^5.0.2",
     "gatsby": "^5.12.6",
+    "gatsby-adapter-netlify": "^1.4.0",
     "gatsby-plugin-google-tagmanager": "5.11.0",
     "gatsby-plugin-image": "^3.7.0",
     "gatsby-plugin-mailchimp": "^5.2.2",

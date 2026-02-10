@@ -1,4 +1,7 @@
+const adapter = require("gatsby-adapter-netlify").default
+
 module.exports = {
+  adapter: adapter(),
   siteMetadata: {
     title: "SA Adventure Trails",
     defaultTitle: "Adventure Trails in SA",
@@ -142,7 +145,6 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
   mapping: {
     "MarkdownRemark.frontmatter.tour": `MarkdownRemark.frontmatter.tour_id`,
