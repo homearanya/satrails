@@ -14,7 +14,7 @@ tour_id: Kosi Bay Slackpacking Trail
 destination: Zululand
 activity: Slackpacking
 duration: 4-5 nights
-price: R 8500
+price: R 9200
 bannerblurb: >
   Explore one of the most ecologically diverse parts of Southern Africa:  A 4 -5
   night fully supported  trail linking the bush and beach camps around the Kosi
