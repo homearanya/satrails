@@ -12,7 +12,7 @@ tour_id: Pondo Hopper Trail
 destination: Wild Coast
 activity: Slackpacking
 duration: 3-4 days
-price: R 9800
+price: R 10400
 bannerblurb: 3 & 5 day trails along this pristine stretch of Northern Wild
   Coast. Overnighting in Wilderness tented camps at  Waterfall Bluff, Cathedral
   Rock and Drew’s Camp an 1 night at Mboyti Lodge
