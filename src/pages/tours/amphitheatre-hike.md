@@ -14,10 +14,10 @@ tour_id: Amphitheatre Hike
 destination: Drakensberg
 activity: Slackpacking
 duration: 3 nights
-price: R 6900
+price: R 8700
 bannerblurb: 3 day ascent of the Amphitheatre peak in the  Northern Drakensberg
 shortdescription: Ascent of the 3000m Amphitheatre peak on the Drakensberg
-  escarpment from Royal National Park over 3 days and nights. A fully guided
+  escarpment from Royal National Park over 3 days and nights. A  guided
   slackpacking hike on an established route suited for walkers of moderate
   fitness.  One of the iconic trails in South Africa
 imageThumbnail:
@@ -40,11 +40,6 @@ photoGallery:
     - alt: Going up the Chainladders
       caption: Going up the Chainladders
       image: /img/ampthitheatre-gallery_4.jpg
-    - alt: The Tugela Falls
-      caption: The Tugela Falls
-      image: /img/ampthitheatre-gallery_6.jpg
-    - alt: Ishandlwana mountain and battlefield
-      image: /img/ct1_009.jpg
 ---
 
 The Amphitheatre is the most recognisable and dramatically imposing feature of the Northern Drakensberg mountain range. A World Heritage Site of outstanding environmental and cultural significance which rises over 1000 metres from the Tugela Valley to the Lesotho plateau nearly 3000 metres above sea level. The Tugela Falls, the world's second tallest falls (and the highest in Africa), plunges 948m over the basalt face of the Amphitheatre, down to Royal Natal National Park below.
