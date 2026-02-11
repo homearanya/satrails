@@ -2,20 +2,19 @@
 templateKey: tour-page
 seo:
   title: Meander Hike · Wild Coast · Slackpacking  · Tours
-  description: >-
-    Easy walking along wide sandy beaches running south from Kob
-    Inn and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
+  description: Easy walking along wide sandy beaches running south from Kob Inn
+    and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
     breakfast with packed lunches at hotels, fully guided and shuttle
     service.  Bags transported by porters.
   image:
-    alt: Karkloof Falls
-    image: /img/karkloof-falls-banner1600x596-min.jpg
+    alt: Meander Hike Group
+    image: /img/meander-hike-gallery_6.jpg
 featured: true
 tour_id: Meander Hike
 destination: Wild Coast
 activity: Slackpacking
 duration: 5 days
-price: R8200
+price: R8400
 bannerblurb: 4 days hike, 5 nights - Kob Inn to Morgan Bay
 shortdescription: Easy walking along wide sandy beaches running south from Kob
   Inn and completing at Morgan Bay after 4 days of hiking. Dinner, bed and
