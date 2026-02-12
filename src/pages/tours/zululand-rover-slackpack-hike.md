@@ -1,7 +1,7 @@
 ---
 templateKey: tour-page
 seo:
-  title: "Zululand Rover Slackpack Hike "
+  title: Zululand Rover Slackpack
   description: Zululand Rover is a 3 day hike in the Mtunzini  Area of KZN
   image:
     image: /img/whatsapp-image-2024-12-15-at-11.25.07_b0b52485.jpg
