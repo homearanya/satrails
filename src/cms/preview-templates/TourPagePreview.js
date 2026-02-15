@@ -67,10 +67,12 @@ export default class TourPagePreview extends Component {
             }}
             photoGalleryObject={this.state.photoGalleryObject}
           />
-          <DummyPhotoGallery
-            handleLoadedImages={this.handleLoadedImages}
-            photoGallery={data.photoGallery}
-          />
+          {data.photoGallery && data.photoGallery.photo && (
+            <DummyPhotoGallery
+              handleLoadedImages={this.handleLoadedImages}
+              photoGallery={data.photoGallery}
+            />
+          )}
         </React.Fragment>
       )
     } else {
