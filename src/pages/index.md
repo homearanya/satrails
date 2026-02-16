@@ -54,11 +54,11 @@ toursarea:
       heading2: ""
       tours:
         - tour: Meander Hike
-        - tour: Mini Break
         - tour: Sunshine Hike
         - tour: Pondo Hopper Trail
         - tour: Coffee Bay Hike
         - tour: Kosi Bay Slackpacking Trail
+        - tour: "Zululand Rover Slackpack Hike "
     - heading1: Drakensberg Slackpacking
       tours:
         - tour: Giants Cup Trail
