@@ -26,10 +26,10 @@ slider:
   - heading1: DRAKENSBERG
     heading2: SLACKPACKING
     image:
-      alt: Winterhoek Huts along the Giants Cup Trail
-      image: /img/giants-cup-trail-1600x750.jpg
-    subheading1: HIKE
-    subheading2: THE HERITAGE TRAIL
+      alt: At the top of the Amphitheatre
+      image: /img/ampthitheatre-gallery_2.jpg
+    subheading1: "AND "
+    subheading2: MOUNTAIN HIKES
 aboutarea:
   blurb: SA Adventure Trails is a marketing and booking agency offering the best
     selection of fully supported, multi-day "slackpacking" hikes   and cycle
