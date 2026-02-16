@@ -50,7 +50,7 @@ toursarea:
 
     lists of tours you can take right now.
   section:
-    - heading1: Wild Coast Slackpacking
+    - heading1: Coastal Slackpacking
       heading2: ""
       tours:
         - tour: Meander Hike
