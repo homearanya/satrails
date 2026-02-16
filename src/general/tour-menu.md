@@ -8,10 +8,10 @@ section:
     tours:
       - tour: Meander Hike
       - tour: Sunshine Hike
-      - tour: Mini Break
       - tour: Pondo Hopper Trail
       - tour: Coffee Bay Hike
       - tour: Kosi Bay Slackpacking Trail
+      - tour: "Zululand Rover Slackpack Hike "
   - heading1: Midlands Slackpacking
     heading2: ""
     image:
@@ -36,6 +36,6 @@ section:
       alt: "Supported Multi Day Cycle Tours  "
     tours:
       - tour: Battlefields
-      - tour: Kamberg Cycle Tours
+      - tour: Clarens Traverse
       - tour: Trappist Monastery
 ---
