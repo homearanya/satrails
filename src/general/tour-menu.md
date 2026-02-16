@@ -1,6 +1,6 @@
 ---
 section:
-  - heading1: Wild Coast Slackpacking
+  - heading1: Coastal Slackpacking
     heading2: " "
     image:
       alt: Wild Coast Slackpacking
