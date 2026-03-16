@@ -147,19 +147,19 @@ partnersarea:
         paragraph:
           - text: Paul has been promoting the KZN Drakensberg and Eastern Cape Wild Coast as
               eco-tourism destinations for the past 25 years.  He was one of the
-              first pioneers of the concept of “slack-packing”, whereby outdoor
-              lovers can hike or cycle on curated trails with full back-up
-              support. Hike or ride  in beautiful natural scenery while your
-              bags are transferred between lodges with comfortable beds and good
-              food and drink at the end of the day.  The Wild Coast Walk, Giants
-              Cup Trail Hikeathon and Amphitheatre Heritage hike are 3 examples
-              which are now firmly established on the active travellers
-              “must-do” list as a result.
+              first pioneers of the concept of “slack-packing”, whereby
+              adventure lovers can hike or cycle off the beaten track  with full
+              back-up support. Hike or ride  in beautiful natural scenery while
+              your bags are transferred between lodges with comfortable beds and
+              good food and drink at the end of the day.  The Wild Coast and
+              Southern Drakensberg are where new slackpacking trails have been
+              recently developed based on his knowledge and experience and are
+              now firmly established most active travellers “must-do” list.
           - text: >-
               A research biologist by profession, Paul is now retired and living
               with his wife Anne in Hilton KZN.
 
-              He is fortunate to have his 3 grown up daughters living nearby, two of which have their own adventure tourism businesses.  An avid diver in his youth, Paul now enjoys taking his mountain bike into the forests and hills of the Natal Midlands. But is of an age where he is now considering e-bike touring as an alternate and more gentle pursuit.
+              He is fortunate to have his 3 grown up daughters living nearby, two of which have their own adventure tourism businesses.  An avid diver in his youth, Paul now enjoys taking his mountain bike into the forests and hills of the Natal Midlands.
       heading1: Paul Colvin
       heading2: ""
       image:
@@ -176,12 +176,11 @@ partnersarea:
               water resources.
           - text: Spekboom Tours was established as an extension of her passions and way of
               life. After spending many happy months backpacking around SE Asia,
-              South America, Europe and South Africa. As a recently qualified as
-              a nature tour guide she is eager to share her knowledge and love
-              for the KZN Midlands area with you.  With spectacular hiking and
-              cycling trails in her backyard of Howick she is often out
-              exploring which may explain why she may be a little breathless
-              when she answers her phone !
+              South America, Europe and South Africa. As a qualified nature tour
+              guide she is eager to share her knowledge and love for the KZN
+              Midlands area with you.  She is often out exploring which may
+              explain why she may be a little breathless when she answers her
+              phone !
       heading1: Julia Invernizzi
       image:
         alt: Julia Colvin
